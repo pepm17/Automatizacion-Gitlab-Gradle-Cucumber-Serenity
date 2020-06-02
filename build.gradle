@@ -1,0 +1,31 @@
+repositories {
+    jcenter()
+    mavenLocal()
+}
+
+buildscript {
+	repositories {
+		mavenLocal()
+	    jcenter()
+	}    
+	dependencies {
+		classpath("net.serenity-bdd:serenity-gradle-plugin:2.0.4")
+	}
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'net.serenity-bdd.aggregator'
+
+dependencies {
+    testCompile 'net.serenity-bdd:serenity-core:2.0.4'
+    testCompile 'net.serenity-bdd:serenity-junit:2.0.4'
+    compile group: 'net.serenity-bdd', name: 'serenity-cucumber', version: '1.9.18'
+    compile group: 'org.apache.poi', name: 'poi-ooxml', version: '4.1.0'
+    testCompile group: 'org.testng', name: 'testng', version: '6.5.2'
+    testCompile('junit:junit:4.12')
+    testCompile('org.assertj:assertj-core:1.7.0')
+    testCompile('org.slf4j:slf4j-simple:1.7.7')
+    
+}

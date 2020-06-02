@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="FUNCIONALIDAD - Crear proyecto publico en GitLab" skipped="0" tests="1" time="24.31" timestamp="2020-04-27 05:33:50"><testcase name="PRUEBA A REALIZAR - Crear proyecto publico desde GitLab"><error message="Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created&#10;from disconnected: received Inspector.detached event&#10;  (Session info: chrome=81.0.4044.122)&#10;Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'&#10;System info: host: 'CPX-QCNK7RK9NU6', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x009E5F73+2449267]&#10;&#9;Ordinal0 [0x00918361+1606497]&#10;&#9;Ordinal0 [0x0080F969+522601]&#10;&#9;Ordinal0 [0x00808179+491897]&#10;&#9;Ordinal0 [0x00807D8C+490892]&#10;&#9;Ordinal0 [0x00807686+489094]&#10;&#9;Ordinal0 [0x00806C8C+486540]&#10;&#9;Ordinal0 [0x00806EC5+487109]&#10;&#9;Ordinal0 [0x00806905+485637]&#10;&#9;Ordinal0 [0x0080E6C5+517829]&#10;&#9;Ordinal0 [0x008068C2+485570]&#10;&#9;Ordinal0 [0x00807329+488233]&#10;&#9;Ordinal0 [0x00806C8C+486540]&#10;&#9;Ordinal0 [0x00806EC5+487109]&#10;&#9;Ordinal0 [0x00806905+485637]&#10;&#9;Ordinal0 [0x0080CEAE+511662]&#10;&#9;Ordinal0 [0x008068C2+485570]&#10;&#9;Ordinal0 [0x00807329+488233]&#10;&#9;Ordinal0 [0x00806C8C+486540]&#10;&#9;Ordinal0 [0x00806EC5+487109]&#10;&#9;Ordinal0 [0x00806905+485637]&#10;&#9;Ordinal0 [0x0080B71C+505628]&#10;&#9;Ordinal0 [0x008068C2+485570]&#10;&#9;Ordinal0 [0x00807329+488233]&#10;&#9;Ordinal0 [0x00806C8C+486540]&#10;&#9;Ordinal0 [0x00806EC5+487109]&#10;&#9;Ordinal0 [0x00806905+485637]&#10;&#9;Ordinal0 [0x0080ADB7+503223]&#10;&#9;Ordinal0 [0x008068C2+485570]&#10;&#9;Ordinal0 [0x00807329+488233]&#10;&#9;Ordinal0 [0x00806C8C+486540]&#10;&#9;Ordinal0 [0x00806EC5+487109]&#10;&#9;Ordinal0 [0x00806905+485637]&#10;&#9;Ordinal0 [0x008031AC+471468]&#10;&#9;Ordinal0 [0x008068C2+485570]&#10;&#9;Ordinal0 [0x00806817+485399]&#10;&#9;Ordinal0 [0x00810600+525824]&#10;&#9;Ordinal0 [0x007BCBB9+183225]&#10;&#9;Ordinal0 [0x007BBF2D+180013]&#10;&#9;Ordinal0 [0x007B9E5B+171611]&#10;&#9;Ordinal0 [0x007A1DD8+73176]&#10;&#9;Ordinal0 [0x007A2E50+77392]&#10;&#9;Ordinal0 [0x007A2DE9+77289]&#10;&#9;Ordinal0 [0x0092D8D7+1693911]&#10;&#9;GetHandleVerifier [0x00A84036+522726]&#10;&#9;GetHandleVerifier [0x00A83D74+522020]&#10;&#9;GetHandleVerifier [0x00A99187+609079]&#10;&#9;GetHandleVerifier [0x00A848A6+524886]&#10;&#9;Ordinal0 [0x00925CBC+1662140]&#10;&#9;Ordinal0 [0x0092F23B+1700411]&#10;&#9;Ordinal0 [0x0092F3A3+1700771]&#10;&#9;Ordinal0 [0x00945215+1790485]&#10;&#9;BaseThreadInitThunk [0x767B6359+25]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x774D7C14+228]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x774D7BE4+180]&#10;" type="net.thucydides.core.webdriver.UnsupportedDriverException">Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created
+from disconnected: received Inspector.detached event
+  (Session info: chrome=81.0.4044.122)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'CPX-QCNK7RK9NU6', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x009E5F73+2449267]
+	Ordinal0 [0x00918361+1606497]
+	Ordinal0 [0x0080F969+522601]
+	Ordinal0 [0x00808179+491897]
+	Ordinal0 [0x00807D8C+490892]
+	Ordinal0 [0x00807686+489094]
+	Ordinal0 [0x00806C8C+486540]
+	Ordinal0 [0x00806EC5+487109]
+	Ordinal0 [0x00806905+485637]
+	Ordinal0 [0x0080E6C5+517829]
+	Ordinal0 [0x008068C2+485570]
+	Ordinal0 [0x00807329+488233]
+	Ordinal0 [0x00806C8C+486540]
+	Ordinal0 [0x00806EC5+487109]
+	Ordinal0 [0x00806905+485637]
+	Ordinal0 [0x0080CEAE+511662]
+	Ordinal0 [0x008068C2+485570]
+	Ordinal0 [0x00807329+488233]
+	Ordinal0 [0x00806C8C+486540]
+	Ordinal0 [0x00806EC5+487109]
+	Ordinal0 [0x00806905+485637]
+	Ordinal0 [0x0080B71C+505628]
+	Ordinal0 [0x008068C2+485570]
+	Ordinal0 [0x00807329+488233]
+	Ordinal0 [0x00806C8C+486540]
+	Ordinal0 [0x00806EC5+487109]
+	Ordinal0 [0x00806905+485637]
+	Ordinal0 [0x0080ADB7+503223]
+	Ordinal0 [0x008068C2+485570]
+	Ordinal0 [0x00807329+488233]
+	Ordinal0 [0x00806C8C+486540]
+	Ordinal0 [0x00806EC5+487109]
+	Ordinal0 [0x00806905+485637]
+	Ordinal0 [0x008031AC+471468]
+	Ordinal0 [0x008068C2+485570]
+	Ordinal0 [0x00806817+485399]
+	Ordinal0 [0x00810600+525824]
+	Ordinal0 [0x007BCBB9+183225]
+	Ordinal0 [0x007BBF2D+180013]
+	Ordinal0 [0x007B9E5B+171611]
+	Ordinal0 [0x007A1DD8+73176]
+	Ordinal0 [0x007A2E50+77392]
+	Ordinal0 [0x007A2DE9+77289]
+	Ordinal0 [0x0092D8D7+1693911]
+	GetHandleVerifier [0x00A84036+522726]
+	GetHandleVerifier [0x00A83D74+522020]
+	GetHandleVerifier [0x00A99187+609079]
+	GetHandleVerifier [0x00A848A6+524886]
+	Ordinal0 [0x00925CBC+1662140]
+	Ordinal0 [0x0092F23B+1700411]
+	Ordinal0 [0x0092F3A3+1700771]
+	Ordinal0 [0x00945215+1790485]
+	BaseThreadInitThunk [0x767B6359+25]
+	RtlGetAppContainerNamedObjectPath [0x774D7C14+228]
+	RtlGetAppContainerNamedObjectPath [0x774D7BE4+180]
+</error><system-err>Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created
+from disconnected: received Inspector.detached event
+  (Session info: chrome=81.0.4044.122)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'CPX-QCNK7RK9NU6', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x009E5F73+2449267]
+	Ordinal0 [0x00918361+1606497]
+	Ordinal0 [0x0080F969+522601]
+	Ordinal0 [0x00808179+491897]
+	Ordinal0 [0x00807D8C+490892]
+	Ordinal0 [0x00807686+489094]
+	Ordinal0 [0x00806C8C+486540]
+	Ordinal0 [0x00806EC5+487109]
+	Ordinal0 [0x00806905+485637]
+	Ordinal0 [0x0080E6C5+517829]
+	Ordinal0 [0x008068C2+485570]
+	Ordinal0 [0x00807329+488233]
+	Ordinal0 [0x00806C8C+486540]
+	Ordinal0 [0x00806EC5+487109]
+	Ordinal0 [0x00806905+485637]
+	Ordinal0 [0x0080CEAE+511662]
+	Ordinal0 [0x008068C2+485570]
+	Ordinal0 [0x00807329+488233]
+	Ordinal0 [0x00806C8C+486540]
+	Ordinal0 [0x00806EC5+487109]
+	Ordinal0 [0x00806905+485637]
+	Ordinal0 [0x0080B71C+505628]
+	Ordinal0 [0x008068C2+485570]
+	Ordinal0 [0x00807329+488233]
+	Ordinal0 [0x00806C8C+486540]
+	Ordinal0 [0x00806EC5+487109]
+	Ordinal0 [0x00806905+485637]
+	Ordinal0 [0x0080ADB7+503223]
+	Ordinal0 [0x008068C2+485570]
+	Ordinal0 [0x00807329+488233]
+	Ordinal0 [0x00806C8C+486540]
+	Ordinal0 [0x00806EC5+487109]
+	Ordinal0 [0x00806905+485637]
+	Ordinal0 [0x008031AC+471468]
+	Ordinal0 [0x008068C2+485570]
+	Ordinal0 [0x00806817+485399]
+	Ordinal0 [0x00810600+525824]
+	Ordinal0 [0x007BCBB9+183225]
+	Ordinal0 [0x007BBF2D+180013]
+	Ordinal0 [0x007B9E5B+171611]
+	Ordinal0 [0x007A1DD8+73176]
+	Ordinal0 [0x007A2E50+77392]
+	Ordinal0 [0x007A2DE9+77289]
+	Ordinal0 [0x0092D8D7+1693911]
+	GetHandleVerifier [0x00A84036+522726]
+	GetHandleVerifier [0x00A83D74+522020]
+	GetHandleVerifier [0x00A99187+609079]
+	GetHandleVerifier [0x00A848A6+524886]
+	Ordinal0 [0x00925CBC+1662140]
+	Ordinal0 [0x0092F23B+1700411]
+	Ordinal0 [0x0092F3A3+1700771]
+	Ordinal0 [0x00945215+1790485]
+	BaseThreadInitThunk [0x767B6359+25]
+	RtlGetAppContainerNamedObjectPath [0x774D7C14+228]
+	RtlGetAppContainerNamedObjectPath [0x774D7BE4+180]
+&#13;
+com.accenture.cucumbergradle.steps.StepGitlab.abrirNavegador(StepGitlab.java:14)&#13;
+com.accenture.cucumbergradle.step_definitions.Step_definitions1.abrir(Step_definitions1.java:18)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+com.accenture.cucumbergradle.runner.RunnerPersonalizado.run(RunnerPersonalizado.java:60)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+</system-err></testcase></testsuite>

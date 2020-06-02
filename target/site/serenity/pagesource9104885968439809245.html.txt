@@ -1,0 +1,1544 @@
+<html class="" lang="en"><head prefix="og: http://ogp.me/ns#">
+<meta charset="utf-8">
+<link href="https://assets.gitlab-static.net" rel="dns-prefetch">
+<link crossorigin="" href="https://assets.gitlab-static.net" rel="preconnnect">
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta content="object" property="og:type">
+<meta content="GitLab" property="og:site_name">
+<meta content="New Project" property="og:title">
+<meta content="GitLab.com" property="og:description">
+<meta content="https://assets.gitlab-static.net/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="og:image">
+<meta content="64" property="og:image:width">
+<meta content="64" property="og:image:height">
+<meta content="https://gitlab.com/projects/new" property="og:url">
+<meta content="summary" property="twitter:card">
+<meta content="New Project" property="twitter:title">
+<meta content="GitLab.com" property="twitter:description">
+<meta content="https://assets.gitlab-static.net/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="twitter:image">
+
+<title>New Project · GitLab</title>
+<meta content="GitLab.com" name="description">
+<link rel="shortcut icon" type="image/png" href="https://gitlab.com/assets/favicon-7901bd695fb93edb07975966062049829afb56cf11511236e61bcf425070e36e.png" id="favicon" data-original-href="https://gitlab.com/assets/favicon-7901bd695fb93edb07975966062049829afb56cf11511236e61bcf425070e36e.png">
+<link rel="stylesheet" media="all" href="https://assets.gitlab-static.net/assets/application-a1024fdbeed3f80bae74c53e3c616f8faa78755bbf7c4917669aa1f1532c68d4.css">
+<link rel="stylesheet" media="print" href="https://assets.gitlab-static.net/assets/print-74c3df10dad473d66660c828e3aa54ca3bfeac6d8bb708643331403fe7211e60.css">
+
+
+<link rel="stylesheet" media="all" href="https://assets.gitlab-static.net/assets/highlight/themes/white-a20fa0d18cb98944b079c02ad5a6f46cb362f986ffd703fda24b3e8e2a4a8874.css">
+<script async="" src="https://assets.gitlab-static.net/assets/snowplow/sp-e10fd598642f1a4dd3e9e0e026f6a1ffa3c31b8a40efd92db3f92d32873baed6.js"></script><script nonce="">
+//<![CDATA[
+window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.gitlab-static.net/assets/no_avatar-849f9c04a3a0d0cea2424ae97b27447dc64a7dbfae83c036c45b403392f0e8ba.png";gon.max_file_size=10;gon.asset_host="https://assets.gitlab-static.net";gon.webpack_public_path="https://assets.gitlab-static.net/assets/webpack/";gon.relative_url_root="";gon.shortcuts_path="/help/shortcuts";gon.user_color_scheme="white";gon.sentry_dsn="https://526a2f38a53d44e3a8e69bfa001d1e8b@sentry.gitlab.net/15";gon.sentry_environment=null;gon.gitlab_url="https://gitlab.com";gon.revision="b7c8d2dbb8f";gon.gitlab_logo="https://assets.gitlab-static.net/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png";gon.sprite_icons="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg";gon.sprite_file_icons="https://gitlab.com/assets/file_icons-7262fc6897e02f1ceaf8de43dc33afa5e4f9a2067f4f68ef77dcc87946575e9e.svg";gon.emoji_sprites_css_path="https://assets.gitlab-static.net/assets/emoji_sprites-289eccffb1183c188b630297431be837765d9ff4aed6130cf738586fb307c170.css";gon.test_env=false;gon.disable_animations=null;gon.suggested_label_colors={"#0033CC":"UA blue","#428BCA":"Moderate blue","#44AD8E":"Lime green","#A8D695":"Feijoa","#5CB85C":"Slightly desaturated green","#69D100":"Bright green","#004E00":"Very dark lime green","#34495E":"Very dark desaturated blue","#7F8C8D":"Dark grayish cyan","#A295D6":"Slightly desaturated blue","#5843AD":"Dark moderate blue","#8E44AD":"Dark moderate violet","#FFECDB":"Very pale orange","#AD4363":"Dark moderate pink","#D10069":"Strong pink","#CC0033":"Strong red","#FF0000":"Pure red","#D9534F":"Soft red","#D1D100":"Strong yellow","#F0AD4E":"Soft orange","#AD8D43":"Dark moderate orange"};gon.first_day_of_week=0;gon.ee=true;gon.current_user_id=5316156;gon.current_username="pepm17";gon.current_user_fullname="pepm17";gon.current_user_avatar_url="https://secure.gravatar.com/avatar/1803bcdc6caed33e80cd265008fd3872?s=80\u0026d=identicon";gon.features={"snippetsVue":true,"monacoSnippets":true,"monacoBlobs":false,"monacoCi":false,"snippetsEditVue":false};
+//]]>
+</script>
+
+<script src="https://assets.gitlab-static.net/assets/webpack/runtime.906d94aa.bundle.js" defer="defer"></script>
+<script src="https://assets.gitlab-static.net/assets/webpack/main.707f7dc7.chunk.js" defer="defer"></script>
+<script src="https://assets.gitlab-static.net/assets/webpack/sentry.db1ec698.chunk.js" defer="defer"></script>
+<script src="https://assets.gitlab-static.net/assets/webpack/commons~pages.admin.clusters~pages.admin.clusters.destroy~pages.admin.clusters.edit~pages.admin.clus~1604fff2.f48524c7.chunk.js" defer="defer"></script>
+<script src="https://assets.gitlab-static.net/assets/webpack/pages.projects.new.d767119c.chunk.js" defer="defer"></script>
+
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="oIyxZ3Nb34ZtloSQTV+Okuzmogv/qH73yhfG+j+RcV1jF/bT09hAkBkl7AUhmXbV7SMKydPWWKCXhQYfzk2vNg==">
+<meta name="csp-nonce" content="vM/kc5khpUJCSRVLuc3cYw==">
+<meta content="origin-when-cross-origin" name="referrer">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<meta content="#474D57" name="theme-color">
+<link rel="apple-touch-icon" type="image/x-icon" href="https://assets.gitlab-static.net/assets/touch-icon-iphone-5a9cee0e8a51212e70b90c87c12f382c428870c0ff67d1eb034d884b78d2dae7.png">
+<link rel="apple-touch-icon" type="image/x-icon" href="https://assets.gitlab-static.net/assets/touch-icon-ipad-a6eec6aeb9da138e507593b464fdac213047e49d3093fc30e90d9a995df83ba3.png" sizes="76x76">
+<link rel="apple-touch-icon" type="image/x-icon" href="https://assets.gitlab-static.net/assets/touch-icon-iphone-retina-72e2aadf86513a56e050e7f0f2355deaa19cc17ed97bbe5147847f2748e5a3e3.png" sizes="120x120">
+<link rel="apple-touch-icon" type="image/x-icon" href="https://assets.gitlab-static.net/assets/touch-icon-ipad-retina-8ebe416f5313483d9c1bc772b5bbe03ecad52a54eba443e5215a22caed2a16a2.png" sizes="152x152">
+<link color="rgb(226, 67, 41)" href="https://assets.gitlab-static.net/assets/logo-d36b5212042cebc89b96df4bf6ac24e43db316143e89926c0db839ff694d2de4.svg" rel="mask-icon">
+<meta content="https://assets.gitlab-static.net/assets/msapplication-tile-1196ec67452f618d39cdd85e2e3a542f76574c071051ae7effbfde01710eb17d.png" name="msapplication-TileImage">
+<meta content="#30353E" name="msapplication-TileColor">
+
+
+
+<script nonce="">
+//<![CDATA[
+;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","https://assets.gitlab-static.net/assets/snowplow/sp-e10fd598642f1a4dd3e9e0e026f6a1ffa3c31b8a40efd92db3f92d32873baed6.js","snowplow"));
+
+window.snowplowOptions = {"namespace":"gl","hostname":"snowplow.trx.gitlab.net","cookieDomain":".gitlab.com","appId":"gitlab","formTracking":true,"linkClickTracking":true,"igluRegistryUrl":null}
+
+
+//]]>
+</script>
+<style type="text/css">
+.tour-item.active[data-v-068086ea] {
+  background: #f6fafe;
+}
+.tour-item.active .tour-title[data-v-068086ea] {
+  font-weight: bold;
+}
+</style><script charset="utf-8" src="https://assets.gitlab-static.net/assets/webpack/vendors~select2.c39eef57.chunk.js"></script></head>
+
+<body class="ui-indigo tab-width-8  gl-browser-chrome gl-platform-windows" data-group="" data-page="projects:new">
+
+<script nonce="">
+//<![CDATA[
+gl = window.gl || {};
+gl.client = {"isChrome":true,"isWindows":true};
+
+
+//]]>
+</script>
+
+
+<header class="navbar navbar-gitlab navbar-expand-sm js-navbar" data-qa-selector="navbar">
+<a class="sr-only gl-accessibility" href="#content-body" tabindex="1">Skip to content</a>
+<div class="container-fluid">
+<div class="header-content">
+<div class="title-container">
+<h1 class="title">
+<a title="Dashboard" id="logo" href="/"><svg width="24" height="24" class="tanuki-logo" viewBox="0 0 36 36">
+  <path class="tanuki-shape tanuki-left-ear" fill="#e24329" d="M2 14l9.38 9v-9l-4-12.28c-.205-.632-1.176-.632-1.38 0z"></path>
+  <path class="tanuki-shape tanuki-right-ear" fill="#e24329" d="M34 14l-9.38 9v-9l4-12.28c.205-.632 1.176-.632 1.38 0z"></path>
+  <path class="tanuki-shape tanuki-nose" fill="#e24329" d="M18,34.38 3,14 33,14 Z"></path>
+  <path class="tanuki-shape tanuki-left-eye" fill="#fc6d26" d="M18,34.38 11.38,14 2,14 6,25Z"></path>
+  <path class="tanuki-shape tanuki-right-eye" fill="#fc6d26" d="M18,34.38 24.62,14 34,14 30,25Z"></path>
+  <path class="tanuki-shape tanuki-left-cheek" fill="#fca326" d="M2 14L.1 20.16c-.18.565 0 1.2.5 1.56l17.42 12.66z"></path>
+  <path class="tanuki-shape tanuki-right-cheek" fill="#fca326" d="M34 14l1.9 6.16c.18.565 0 1.2-.5 1.56L18 34.38z"></path>
+</svg>
+
+<span class="logo-text d-none d-lg-block prepend-left-8">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 617 169"><path d="M315.26 2.97h-21.8l.1 162.5h88.3v-20.1h-66.5l-.1-142.4M465.89 136.95c-5.5 5.7-14.6 11.4-27 11.4-16.6 0-23.3-8.2-23.3-18.9 0-16.1 11.2-23.8 35-23.8 4.5 0 11.7.5 15.4 1.2v30.1h-.1m-22.6-98.5c-17.6 0-33.8 6.2-46.4 16.7l7.7 13.4c8.9-5.2 19.8-10.4 35.5-10.4 17.9 0 25.8 9.2 25.8 24.6v7.9c-3.5-.7-10.7-1.2-15.1-1.2-38.2 0-57.6 13.4-57.6 41.4 0 25.1 15.4 37.7 38.7 37.7 15.7 0 30.8-7.2 36-18.9l4 15.9h15.4v-83.2c-.1-26.3-11.5-43.9-44-43.9M557.63 149.1c-8.2 0-15.4-1-20.8-3.5V70.5c7.4-6.2 16.6-10.7 28.3-10.7 21.1 0 29.2 14.9 29.2 39 0 34.2-13.1 50.3-36.7 50.3m9.2-110.6c-19.5 0-30 13.3-30 13.3v-21l-.1-27.8h-21.3l.1 158.5c10.7 4.5 25.3 6.9 41.2 6.9 40.7 0 60.3-26 60.3-70.9-.1-35.5-18.2-59-50.2-59M77.9 20.6c19.3 0 31.8 6.4 39.9 12.9l9.4-16.3C114.5 6 97.3 0 78.9 0 32.5 0 0 28.3 0 85.4c0 59.8 35.1 83.1 75.2 83.1 20.1 0 37.2-4.7 48.4-9.4l-.5-63.9V75.1H63.6v20.1h38l.5 48.5c-5 2.5-13.6 4.5-25.3 4.5-32.2 0-53.8-20.3-53.8-63-.1-43.5 22.2-64.6 54.9-64.6M231.43 2.95h-21.3l.1 27.3v94.3c0 26.3 11.4 43.9 43.9 43.9 4.5 0 8.9-.4 13.1-1.2v-19.1c-3.1.5-6.4.7-9.9.7-17.9 0-25.8-9.2-25.8-24.6v-65h35.7v-17.8h-35.7l-.1-38.5M155.96 165.47h21.3v-124h-21.3v124M155.96 24.37h21.3V3.07h-21.3v21.3"></path></svg>
+
+</span>
+</a></h1>
+<ul class="list-unstyled navbar-sub-nav">
+<li id="nav-projects-dropdown" class="home dropdown header-projects qa-projects-dropdown" data-track-label="projects_dropdown" data-track-event="click_dropdown" data-track-value=""><button class="btn" data-toggle="dropdown" type="button">
+Projects
+<svg class="caret-down"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#angle-down"></use></svg>
+</button>
+<div class="dropdown-menu frequent-items-dropdown-menu">
+<div class="frequent-items-dropdown-container">
+<div class="frequent-items-dropdown-sidebar qa-projects-dropdown-sidebar">
+<ul>
+<li class=""><a class="qa-your-projects-link" href="/dashboard/projects">Your projects
+</a></li><li class=""><a href="/dashboard/projects/starred">Starred projects
+</a></li><li class=""><a href="/explore">Explore projects
+</a></li></ul>
+</div>
+<div class="frequent-items-dropdown-content">
+<div><div class="search-input-container d-none d-sm-block"><input placeholder="Search your projects" type="search" class="form-control"> <svg aria-hidden="true" class="search-icon s16 ic-search"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#search"></use></svg></div> <!----> <div class="section-header">
+    Frequently visited
+  </div> <div class="frequent-items-list-container"><ul class="list-unstyled"><li class="section-empty">
+      Projects you visit often will appear here
+    </li></ul></div></div>
+</div>
+</div>
+
+</div>
+</li><li id="nav-groups-dropdown" class="d-none d-md-block home dropdown header-groups qa-groups-dropdown" data-track-label="groups_dropdown" data-track-event="click_dropdown" data-track-value=""><button class="btn" data-toggle="dropdown" type="button">
+Groups
+<svg class="caret-down"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#angle-down"></use></svg>
+</button>
+<div class="dropdown-menu frequent-items-dropdown-menu">
+<div class="frequent-items-dropdown-container">
+<div class="frequent-items-dropdown-sidebar qa-groups-dropdown-sidebar">
+<ul>
+<li class=""><a class="qa-your-groups-link" href="/dashboard/groups">Your groups
+</a></li><li class=""><a href="/explore/groups">Explore groups
+</a></li></ul>
+</div>
+<div class="frequent-items-dropdown-content">
+<div><div class="search-input-container d-none d-sm-block"><input placeholder="Search your groups" type="search" class="form-control"> <svg aria-hidden="true" class="search-icon s16 ic-search"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#search"></use></svg></div> <!----> <div class="section-header">
+    Frequently visited
+  </div> <div class="frequent-items-list-container"><ul class="list-unstyled"><li class="section-empty">
+      Groups you visit often will appear here
+    </li></ul></div></div>
+</div>
+</div>
+
+</div>
+</li><li class="header-more dropdown">
+<a data-qa-selector="more_dropdown" data-toggle="dropdown" href="#">
+More
+<svg class="caret-down"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#angle-down"></use></svg>
+</a>
+<div class="dropdown-menu">
+<ul>
+<li class="d-md-none">
+<a href="/dashboard/groups">Groups
+</a></li>
+<li class=""><a class="dashboard-shortcuts-activity" href="/dashboard/activity">Activity
+</a></li><li class=""><a class="dashboard-shortcuts-milestones" href="/dashboard/milestones">Milestones
+</a></li><li class=""><a class="dashboard-shortcuts-snippets" data-qa-selector="snippets_link" href="/dashboard/snippets">Snippets
+</a></li>
+<li class="dropdown">
+<a class="dropdown-item" href="/-/operations/environments">Environments
+</a><a class="dropdown-item" href="/-/operations">Operations
+</a><a class="dropdown-item" href="/-/security">Security
+</a>
+</li>
+</ul>
+</div>
+</li>
+
+<li class="hidden">
+<a class="dashboard-shortcuts-projects" href="/dashboard/projects">Projects
+</a></li>
+
+</ul>
+
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li class="header-new dropdown" data-track-event="click_dropdown" data-track-label="new_dropdown" data-track-value="">
+<a class="header-new-dropdown-toggle has-tooltip qa-new-menu-toggle" id="js-onboarding-new-project-link" title="New..." ref="tooltip" aria-label="New..." data-toggle="dropdown" data-placement="bottom" data-container="body" data-display="static" href="/projects/new"><svg class="s16"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#plus-square"></use></svg>
+<svg class="caret-down"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#angle-down"></use></svg>
+</a><div class="dropdown-menu dropdown-menu-right">
+<ul>
+<li><a class="qa-global-new-project-link" href="/projects/new">New project</a></li>
+<li><a href="/groups/new">New group</a></li>
+<li><a class="qa-global-new-snippet-link" href="/snippets/new">New snippet</a></li>
+</ul>
+</div>
+</li>
+
+<li class="nav-item d-none d-lg-block m-auto">
+<div class="search search-form" data-track-event="activate_form_input" data-track-label="navbar_search" data-track-value="">
+<form class="form-inline" action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓"><div class="search-input-container">
+<div class="search-input-wrap">
+<div class="dropdown" data-url="/search/autocomplete">
+<input type="search" name="search" id="search" placeholder="Search or jump to…" class="search-input dropdown-menu-toggle no-outline js-search-dashboard-options js-autocomplete-disabled" spellcheck="false" tabindex="1" autocomplete="off" data-issues-path="/dashboard/issues" data-mr-path="/dashboard/merge_requests" data-qa-selector="search_term_field" aria-label="Search or jump to…">
+<button class="hidden js-dropdown-search-toggle" data-toggle="dropdown" type="button"></button>
+<div class="dropdown-menu dropdown-select js-dashboard-search-options">
+<div class="dropdown-content"><ul>
+<li class="dropdown-menu-empty-item">
+<a>
+Loading...
+</a>
+</li>
+</ul>
+</div><div class="dropdown-loading"><i aria-hidden="true" data-hidden="true" class="fa fa-spinner fa-spin"></i></div>
+</div>
+<svg class="s16 search-icon"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#search"></use></svg>
+<svg class="s16 clear-icon js-clear-input"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#close"></use></svg>
+</div>
+</div>
+</div>
+<input type="hidden" name="group_id" id="group_id" class="js-search-group-options">
+<input type="hidden" name="project_id" id="search_project_id" value="" class="js-search-project-options">
+<input type="hidden" name="repository_ref" id="repository_ref">
+<input type="hidden" name="nav_source" id="nav_source" value="navbar">
+<div class="search-autocomplete-opts hide" data-autocomplete-path="/search/autocomplete"></div>
+</form></div>
+
+</li>
+<li class="nav-item d-inline-block d-lg-none">
+<a title="Search" aria-label="Search" data-toggle="tooltip" data-placement="bottom" data-container="body" href="/search"><svg class="s16"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#search"></use></svg>
+</a></li>
+<li class="user-counter"><a title="Issues" class="dashboard-shortcuts-issues" aria-label="Issues" data-toggle="tooltip" data-placement="bottom" data-container="body" href="/dashboard/issues?assignee_username=pepm17"><svg class="s16"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#issues"></use></svg>
+<span class="badge badge-pill green-badge hidden issues-count">
+0
+</span>
+</a></li><li class="user-counter"><a title="Merge requests" class="dashboard-shortcuts-merge_requests" aria-label="Merge requests" data-toggle="tooltip" data-placement="bottom" data-container="body" href="/dashboard/merge_requests?assignee_username=pepm17"><svg class="s16"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#git-merge"></use></svg>
+<span class="badge badge-pill hidden merge-requests-count">
+0
+</span>
+</a></li><li class="user-counter"><a title="To-Do List" aria-label="To-Do List" class="shortcuts-todos" data-toggle="tooltip" data-placement="bottom" data-container="body" href="/dashboard/todos"><svg class="s16"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#todo-done"></use></svg>
+<span class="badge badge-pill hidden todos-count">
+0
+</span>
+</a></li><li class="nav-item header-help dropdown d-none d-md-block">
+<a class="header-help-dropdown-toggle" data-toggle="dropdown" href="/help"><svg class="s16"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#question"></use></svg>
+<svg class="caret-down"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#angle-down"></use></svg>
+</a><div class="dropdown-menu dropdown-menu-right">
+<ul>
+<li>
+<a href="/help">Help</a>
+</li>
+<li>
+<a href="https://about.gitlab.com/getting-help/">Support</a>
+</li>
+<li>
+<button class="js-shortcuts-modal-trigger" type="button">
+Keyboard shortcuts
+<span aria-hidden="" class="text-secondary float-right">?</span>
+</button>
+</li>
+
+<li class="divider"></li>
+<li>
+<a href="https://about.gitlab.com/submit-feedback">Submit feedback</a>
+</li>
+<li>
+<a target="_blank" class="text-nowrap" href="https://about.gitlab.com/contributing">Contribute to GitLab
+</a>
+
+</li>
+
+<li>
+<a href="https://next.gitlab.com/">Switch to GitLab Next</a>
+</li>
+</ul>
+
+</div>
+</li>
+<li class="dropdown header-user js-nav-user-dropdown nav-item" data-qa-selector="user_menu" data-track-event="click_dropdown" data-track-label="profile_dropdown" data-track-value="">
+<a class="header-user-dropdown-toggle" data-toggle="dropdown" href="/pepm17"><img width="23" height="23" class="header-user-avatar qa-user-avatar js-lazy-loaded qa-js-lazy-loaded" src="https://secure.gravatar.com/avatar/1803bcdc6caed33e80cd265008fd3872?s=46&amp;d=identicon">
+
+<svg class="caret-down"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#angle-down"></use></svg>
+</a><div class="dropdown-menu dropdown-menu-right">
+<ul>
+<li class="current-user">
+<div class="user-name bold">
+pepm17
+</div>
+@pepm17
+</li>
+<li class="divider"></li>
+<li>
+<button type="button" class="btn menu-item">Set status</button>
+</li>
+<li>
+<a class="profile-link" data-user="pepm17" href="/pepm17">Profile</a>
+</li>
+<li>
+<a class="trial-link" href="/-/trial_registrations/new?glm_content=top-right-dropdown&amp;glm_source=gitlab.com">
+Start a Gold trial
+<gl-emoji title="rocket" data-name="rocket" data-unicode-version="6.0">🚀</gl-emoji>
+</a>
+</li>
+<li>
+<a data-qa-selector="settings_link" href="/profile">Settings</a>
+</li>
+
+<li class="divider d-md-none"></li>
+<li class="d-md-none">
+<a href="/help">Help</a>
+</li>
+<li class="d-md-none">
+<a href="https://about.gitlab.com/getting-help/">Support</a>
+</li>
+
+<li class="d-md-none">
+<a href="https://about.gitlab.com/submit-feedback">Submit feedback</a>
+</li>
+<li class="d-md-none">
+<a target="_blank" class="text-nowrap" href="https://about.gitlab.com/contributing">Contribute to GitLab
+</a>
+
+</li>
+
+<li class="d-md-none">
+<a href="https://next.gitlab.com/">Switch to GitLab Next</a>
+</li>
+<li class="divider"></li>
+<li>
+<a class="sign-out-link" data-qa-selector="sign_out_link" rel="nofollow" data-method="post" href="/users/sign_out">Sign out</a>
+</li>
+</ul>
+
+</div>
+</li>
+</ul>
+</div>
+<button class="navbar-toggler d-block d-sm-none" type="button">
+<span class="sr-only">Toggle navigation</span>
+<svg class="s12 more-icon js-navbar-toggle-right"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#ellipsis_h"></use></svg>
+<svg class="s12 close-icon js-navbar-toggle-left"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#close"></use></svg>
+</button>
+</div>
+</div>
+</header>
+<!---->
+
+<div class="layout-page">
+<div class="content-wrapper">
+<div class="mobile-overlay"></div>
+<div class="alert-wrapper">
+
+
+
+
+
+
+
+
+
+<div class="d-flex"></div>
+</div>
+<div class="container-fluid container-limited ">
+<div class="content" id="content-body">
+<div class="flash-container flash-container-page sticky">
+</div>
+
+<div class="project-edit-container prepend-top-default">
+<div class="project-edit-errors">
+
+
+</div>
+<div class="row">
+<div class="col-lg-3 profile-settings-sidebar">
+<h4 class="prepend-top-0">
+New project
+</h4>
+<p>
+A project is where you house your files (repository), plan your work (issues), and publish your documentation (wiki), <a target="_blank" href="/help/user/project/index.md#projects-features">among other things</a>.
+</p>
+<p>
+All features are enabled for blank projects, from templates, or when importing, but you can disable them afterward in the project settings.
+</p>
+<p>
+To only use CI/CD features for an external repository, choose <strong>CI/CD for external repo</strong>.
+</p>
+
+<p>
+Information about additional Pages templates and how to install them can be found in our <a target="_blank" href="/help/user/project/pages/getting_started_part_two#fork-a-project-to-get-started-from">Pages getting started guide</a>.
+</p>
+<div class="md">
+
+</div>
+<p>
+<strong>Tip:</strong>
+You can also create a project from the command line.
+<a class="push-new-project-tip" data-title="Push to create a project" href="/help/gitlab-basics/create-project#push-to-create-a-new-project" data-original-title="" title="">
+Show command
+</a>
+<template class="push-new-project-tip-template"><div class="push-to-create-popover">
+<p>
+<label class="weight-normal" for="push_to_create_tip">Private projects can be created in your personal namespace with:</label>
+</p>
+<p class="input-group project-tip-command">
+<span>
+<input type="text" name="push_to_create_tip" id="push_to_create_tip" value="git push --set-upstream git@gitlab.com:pepm17/$(git rev-parse --show-toplevel | xargs basename).git $(git rev-parse --abbrev-ref HEAD)" class="js-select-on-focus form-control monospace" readonly="readonly" aria-label="Push project from command line">
+</span>
+<span class="input-group-append">
+<button class="btn input-group-text" data-toggle="tooltip" data-placement="right" data-container="body" data-title="Copy command" data-class="input-group-text" data-clipboard-text="git push --set-upstream git@gitlab.com:pepm17/$(git rev-parse --show-toplevel | xargs basename).git $(git rev-parse --abbrev-ref HEAD)" type="button" title="Copy command" aria-label="Copy command"><svg><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#copy-to-clipboard"></use></svg></button>
+</span>
+</p>
+<p>
+<a target="_blank" href="/help/gitlab-basics/create-project#push-to-create-a-new-project">What does this command do?</a>
+</p>
+</div>
+</template>
+</p>
+</div>
+<div class="col-lg-9 js-toggle-container">
+<ul class="nav nav-tabs nav-links gitlab-tabs" role="tablist">
+<li class="nav-item" role="presentation">
+<a class="nav-link active" data-toggle="tab" data-track-event="click_tab" data-track-label="blank_project" data-track-value="" href="#blank-project-pane" id="blank-project-tab" role="tab">
+<span class="d-none d-sm-block">Blank project</span>
+<span class="d-block d-sm-none">Blank</span>
+</a>
+</li>
+<li class="nav-item" role="presentation">
+<a class="nav-link" data-toggle="tab" data-track-event="click_tab" data-track-label="create_from_template" data-track-value="" href="#create-from-template-pane" id="create-from-template-tab" role="tab">
+<span class="d-none d-sm-block qa-project-create-from-template-tab">Create from template</span>
+<span class="d-block d-sm-none">Template</span>
+</a>
+</li>
+<li class="nav-item" role="presentation">
+<a class="nav-link" data-toggle="tab" data-track-event="click_tab" data-track-label="import_project" data-track-value="" href="#import-project-pane" id="import-project-tab" role="tab">
+<span class="d-none d-sm-block">Import project</span>
+<span class="d-block d-sm-none">Import</span>
+</a>
+</li>
+<li class="nav-item" role="presentation">
+<a class="nav-link" data-toggle="tab" data-track-event="click_tab" data-track-label="cicd_for_external_repo" data-track-value="" href="#ci-cd-project-pane" id="ci-cd-project-tab" role="tab">
+<span class="d-none d-sm-block">
+CI/CD for external repo
+</span>
+<span class="d-block d-sm-none">
+CI/CD
+</span>
+</a>
+</li>
+
+</ul>
+<div class="tab-content gitlab-tab-content">
+<div class="active js-toggle-container tab-pane" id="blank-project-pane" role="tabpanel">
+<form class="new_project" id="new_project" action="/projects" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="oIyxZ3Nb34ZtloSQTV+Okuzmogv/qH73yhfG+j+RcV1jF/bT09hAkBkl7AUhmXbV7SMKydPWWKCXhQYfzk2vNg=="><div class="row" id="blank-project-name">
+<input value="false" type="hidden" name="project[ci_cd_only]" id="project_ci_cd_only">
+<div class="form-group project-name col-sm-12">
+<label class="label-bold" for="project_name"><span>Project name</span>
+</label><input placeholder="My awesome project" class="form-control input-lg" autofocus="autofocus" data-track-label="blank_project" data-track-event="activate_form_input" data-track-property="project_name" data-track-value="" type="text" name="project[name]" id="project_name">
+</div>
+<div class="form-group project-path col-sm-6">
+<label class="label-bold" for="project_namespace_id"><span>Project URL</span>
+</label><div class="input-group flex-nowrap">
+<div class="input-group-prepend static-namespace flex-shrink-0 has-tooltip" title="https://gitlab.com/pepm17/">
+<div class="input-group-text border-0">
+https://gitlab.com/pepm17/
+</div>
+</div>
+<input value="7003510" type="hidden" name="project[namespace_id]" id="project_namespace_id">
+</div>
+</div>
+<div class="form-group project-path col-sm-6">
+<label class="label-bold" for="project_path"><span>Project slug</span>
+</label><input placeholder="my-awesome-project" class="form-control" required="required" type="text" name="project[path]" id="project_path">
+</div>
+</div>
+<div class="form-text text-muted">
+Want to house several dependent projects under the same namespace? <a href="/groups/new">Create a group.</a>
+</div>
+<div class="form-group">
+<label class="label-bold" for="project_description">Project description <span>(optional)</span>
+</label><textarea placeholder="Description format" class="form-control" rows="3" maxlength="250" data-track-label="blank_project" data-track-event="activate_form_input" data-track-property="project_description" data-track-value="" name="project[description]" id="project_description"></textarea>
+</div>
+<label class="label-bold" for="project_visibility_level">Visibility Level
+<a aria-label="Documentation for Visibility Level" target="_blank" rel="noopener noreferrer" href="/help/public_access/public_access"><i aria-hidden="true" data-hidden="true" class="fa fa-question-circle"></i></a>
+</label><div class="form-group visibility-level-setting">
+<div class="form-check">
+<input class="form-check-input" data-track-label="blank_project" data-track-event="activate_form_input" data-track-property="visibility_level_0" data-track-value="" data-qa-selector="private_radio" type="radio" value="0" checked="checked" name="project[visibility_level]" id="project_visibility_level_0">
+<label class="form-check-label" for="project_visibility_level_0"><i aria-hidden="true" data-hidden="true" class="fa fa-lock fa-fw"></i>
+<div class="option-title">
+Private
+</div>
+<div class="option-description">
+Project access must be granted explicitly to each user. If this project is part of a group, access will be granted to members of the group.
+</div>
+</label></div>
+<div class="form-check">
+<input class="form-check-input" data-track-label="blank_project" data-track-event="activate_form_input" data-track-property="visibility_level_20" data-track-value="" data-qa-selector="public_radio" type="radio" value="20" name="project[visibility_level]" id="project_visibility_level_20">
+<label class="form-check-label" for="project_visibility_level_20"><i aria-hidden="true" data-hidden="true" class="fa fa-globe fa-fw"></i>
+<div class="option-title">
+Public
+</div>
+<div class="option-description">
+The project can be accessed without any authentication.
+</div>
+</label></div>
+<div class="text-muted">
+</div>
+
+</div>
+
+<div class="form-group row initialize-with-readme-setting">
+<div class="col-sm-12">
+<div class="form-check">
+<input type="checkbox" name="project[initialize_with_readme]" id="project_initialize_with_readme" value="1" class="form-check-input qa-initialize-with-readme-checkbox" data-track-label="blank_project" data-track-event="activate_form_input" data-track-property="init_with_readme" data-track-value="">
+<label class="form-check-label" for="project_initialize_with_readme"><div class="option-title">
+<strong>Initialize repository with a README</strong>
+</div>
+<div class="option-description">
+Allows you to immediately clone this project’s repository. Skip this if you plan to push up an existing repository.
+</div>
+</label></div>
+</div>
+</div>
+<input type="submit" name="commit" value="Create project" class="btn btn-success project-submit" data-track-label="blank_project" data-track-event="click_button" data-track-property="create_project" data-track-value="" data-disable-with="Create project">
+<a class="btn btn-cancel" data-track-label="blank_project" data-track-event="click_button" data-track-property="cancel" data-track-value="" href="/dashboard/projects">Cancel</a>
+
+</form></div>
+<div class="js-toggle-container pb-0 px-0 tab-pane" id="create-from-template-pane" role="tabpanel">
+<div class="card card-slim m-4 p-4">
+<div>
+Learn how to <a href="https://gitlab.com/gitlab-org/project-templates/contributing" target="_blank" rel="noopener noreferrer">contribute to the built-in templates</a>
+</div>
+</div>
+<form class="new_project" id="new_project" action="/projects" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="oIyxZ3Nb34ZtloSQTV+Okuzmogv/qH73yhfG+j+RcV1jF/bT09hAkBkl7AUhmXbV7SMKydPWWKCXhQYfzk2vNg=="><div class="project-template">
+<div class="form-group">
+<div>
+<div class="project-templates-buttons col-sm-12">
+<ul class="nav-tabs nav-links nav scrolling-tabs is-initialized">
+<li class="built-in-tab">
+<a class="nav-link active" data-toggle="tab" href="#built-in">
+Built-in
+<span class="badge badge-pill">22</span>
+</a>
+</li>
+<li class="custom-instance-project-templates-tab">
+<a class="nav-link js-custom-instance-project-templates-nav-link qa-instance-templates-tab" data-toggle="tab" href="#custom-instance-project-templates">
+Instance
+<span class="badge badge-pill qa-instance-template-tab-badge">0</span>
+</a>
+</li>
+<li class="custom-group-project-templates-tab">
+<a class="nav-link js-custom-group-project-templates-nav-link qa-group-templates-tab" data-toggle="tab" href="#custom-group-project-templates">
+Group
+<span class="badge badge-pill qa-group-template-tab-badge">
+0
+</span>
+</a>
+</li>
+</ul>
+</div>
+<div class="tab-content">
+<div class="project-templates-buttons import-buttons tab-pane active" id="built-in">
+<div class="template-option d-flex align-items-center" data-qa-selector="template_option_row">
+<div class="logo append-right-10 px-1">
+<img class="btn-template-icon icon-rails lazy" data-src="https://assets.gitlab-static.net/assets/illustrations/logos/rails-e4746cdee7c94c9e3530c8f34bce6dfd8f7c31f2bd5614c008f86d68800e8c69.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="32" height="32">
+</div>
+<div class="description">
+<strong>
+Ruby on Rails
+</strong>
+<br>
+<div class="text-muted">
+Includes an MVC structure, Gemfile, Rakefile, along with many others, to help you get started.
+</div>
+</div>
+<div class="controls d-flex align-items-center">
+<a class="btn btn-default append-right-10" data-track-event="click_button" data-track-label="template_preview" data-track-property="rails" data-track-value="" href="https://gitlab.com/gitlab-org/project-templates/rails" rel="noopener noreferrer" target="_blank">
+Preview
+</a>
+<label class="btn btn-success template-button choose-template append-bottom-0" for="rails">
+<input autocomplete="off" data-track-event="click_button" data-track-label="template_use" data-track-property="rails" data-track-value="" id="rails" name="project[template_name]" type="radio" value="rails">
+<span data-qa-selector="use_template_button">
+Use template
+</span>
+</label>
+</div>
+</div>
+<div class="template-option d-flex align-items-center" data-qa-selector="template_option_row">
+<div class="logo append-right-10 px-1">
+<img class="btn-template-icon icon-spring lazy" data-src="https://assets.gitlab-static.net/assets/illustrations/logos/spring-e05c67c5686d76e33bbb653d8acedb4d86fa27f610c6eed991393289e16ea7d6.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="32" height="32">
+</div>
+<div class="description">
+<strong>
+Spring
+</strong>
+<br>
+<div class="text-muted">
+Includes an MVC structure, mvnw and pom.xml to help you get started.
+</div>
+</div>
+<div class="controls d-flex align-items-center">
+<a class="btn btn-default append-right-10" data-track-event="click_button" data-track-label="template_preview" data-track-property="spring" data-track-value="" href="https://gitlab.com/gitlab-org/project-templates/spring" rel="noopener noreferrer" target="_blank">
+Preview
+</a>
+<label class="btn btn-success template-button choose-template append-bottom-0" for="spring">
+<input autocomplete="off" data-track-event="click_button" data-track-label="template_use" data-track-property="spring" data-track-value="" id="spring" name="project[template_name]" type="radio" value="spring">
+<span data-qa-selector="use_template_button">
+Use template
+</span>
+</label>
+</div>
+</div>
+<div class="template-option d-flex align-items-center" data-qa-selector="template_option_row">
+<div class="logo append-right-10 px-1">
+<img class="btn-template-icon icon-express lazy" data-src="https://assets.gitlab-static.net/assets/illustrations/logos/express-e8d30ca316d8cdf88fc96a4b20b15b2e47efc8f22cc0777bb5060379e2df5a55.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="32" height="32">
+</div>
+<div class="description">
+<strong>
+NodeJS Express
+</strong>
+<br>
+<div class="text-muted">
+Includes an MVC structure to help you get started.
+</div>
+</div>
+<div class="controls d-flex align-items-center">
+<a class="btn btn-default append-right-10" data-track-event="click_button" data-track-label="template_preview" data-track-property="express" data-track-value="" href="https://gitlab.com/gitlab-org/project-templates/express" rel="noopener noreferrer" target="_blank">
+Preview
+</a>
+<label class="btn btn-success template-button choose-template append-bottom-0" for="express">
+<input autocomplete="off" data-track-event="click_button" data-track-label="template_use" data-track-property="express" data-track-value="" id="express" name="project[template_name]" type="radio" value="express">
+<span data-qa-selector="use_template_button">
+Use template
+</span>
+</label>
+</div>
+</div>
+<div class="template-option d-flex align-items-center" data-qa-selector="template_option_row">
+<div class="logo append-right-10 px-1">
+<img class="btn-template-icon icon-iosswift lazy" data-src="https://assets.gitlab-static.net/assets/illustrations/logos/swift-d0f3f6ee9a0b08d6dc108657a670e1785112cd530710434ca604f81500f705df.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="32" height="32">
+</div>
+<div class="description">
+<strong>
+iOS (Swift)
+</strong>
+<br>
+<div class="text-muted">
+A ready-to-go template for use with iOS Swift apps.
+</div>
+</div>
+<div class="controls d-flex align-items-center">
+<a class="btn btn-default append-right-10" data-track-event="click_button" data-track-label="template_preview" data-track-property="iosswift" data-track-value="" href="https://gitlab.com/gitlab-org/project-templates/iosswift" rel="noopener noreferrer" target="_blank">
+Preview
+</a>
+<label class="btn btn-success template-button choose-template append-bottom-0" for="iosswift">
+<input autocomplete="off" data-track-event="click_button" data-track-label="template_use" data-track-property="iosswift" data-track-value="" id="iosswift" name="project[template_name]" type="radio" value="iosswift">
+<span data-qa-selector="use_template_button">
+Use template
+</span>
+</label>
+</div>
+</div>
+<div class="template-option d-flex align-items-center" data-qa-selector="template_option_row">
+<div class="logo append-right-10 px-1">
+<img class="btn-template-icon icon-dotnetcore lazy" data-src="https://assets.gitlab-static.net/assets/illustrations/logos/dotnet-a74099a5a5edddc2187b1d555738b9a96848908e19775f8d5e8f551df7241119.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="32" height="32">
+</div>
+<div class="description">
+<strong>
+.NET Core
+</strong>
+<br>
+<div class="text-muted">
+A .NET Core console application template, customizable for any .NET Core project
+</div>
+</div>
+<div class="controls d-flex align-items-center">
+<a class="btn btn-default append-right-10" data-track-event="click_button" data-track-label="template_preview" data-track-property="dotnetcore" data-track-value="" href="https://gitlab.com/gitlab-org/project-templates/dotnetcore" rel="noopener noreferrer" target="_blank">
+Preview
+</a>
+<label class="btn btn-success template-button choose-template append-bottom-0" for="dotnetcore">
+<input autocomplete="off" data-track-event="click_button" data-track-label="template_use" data-track-property="dotnetcore" data-track-value="" id="dotnetcore" name="project[template_name]" type="radio" value="dotnetcore">
+<span data-qa-selector="use_template_button">
+Use template
+</span>
+</label>
+</div>
+</div>
+<div class="template-option d-flex align-items-center" data-qa-selector="template_option_row">
+<div class="logo append-right-10 px-1">
+<img class="btn-template-icon icon-android lazy" data-src="https://assets.gitlab-static.net/assets/illustrations/logos/android-cdf2aa2a47a8c0149252b0dcae5a60dacf6b5fdea960037b323dacac0c287017.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="32" height="32">
+</div>
+<div class="description">
+<strong>
+Android
+</strong>
+<br>
+<div class="text-muted">
+A ready-to-go template for use with Android apps.
+</div>
+</div>
+<div class="controls d-flex align-items-center">
+<a class="btn btn-default append-right-10" data-track-event="click_button" data-track-label="template_preview" data-track-property="android" data-track-value="" href="https://gitlab.com/gitlab-org/project-templates/android" rel="noopener noreferrer" target="_blank">
+Preview
+</a>
+<label class="btn btn-success template-button choose-template append-bottom-0" for="android">
+<input autocomplete="off" data-track-event="click_button" data-track-label="template_use" data-track-property="android" data-track-value="" id="android" name="project[template_name]" type="radio" value="android">
+<span data-qa-selector="use_template_button">
+Use template
+</span>
+</label>
+</div>
+</div>
+<div class="template-option d-flex align-items-center" data-qa-selector="template_option_row">
+<div class="logo append-right-10 px-1">
+<img class="btn-template-icon icon-gomicro lazy" data-src="https://assets.gitlab-static.net/assets/illustrations/gitlab_logo-d7afffa3f05ae21d2d18577649baff300533bf86358436737eb0ab75bd39aa3a.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="32" height="32">
+</div>
+<div class="description">
+<strong>
+Go Micro
+</strong>
+<br>
+<div class="text-muted">
+Go Micro is a framework for micro service development.
+</div>
+</div>
+<div class="controls d-flex align-items-center">
+<a class="btn btn-default append-right-10" data-track-event="click_button" data-track-label="template_preview" data-track-property="gomicro" data-track-value="" href="https://gitlab.com/gitlab-org/project-templates/go-micro" rel="noopener noreferrer" target="_blank">
+Preview
+</a>
+<label class="btn btn-success template-button choose-template append-bottom-0" for="gomicro">
+<input autocomplete="off" data-track-event="click_button" data-track-label="template_use" data-track-property="gomicro" data-track-value="" id="gomicro" name="project[template_name]" type="radio" value="gomicro">
+<span data-qa-selector="use_template_button">
+Use template
+</span>
+</label>
+</div>
+</div>
+<div class="template-option d-flex align-items-center" data-qa-selector="template_option_row">
+<div class="logo append-right-10 px-1">
+<img class="btn-template-icon icon-gatsby lazy" data-src="https://assets.gitlab-static.net/assets/illustrations/gitlab_logo-d7afffa3f05ae21d2d18577649baff300533bf86358436737eb0ab75bd39aa3a.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="32" height="32">
+</div>
+<div class="description">
+<strong>
+Pages/Gatsby
+</strong>
+<br>
+<div class="text-muted">
+Everything you need to create a GitLab Pages site using Gatsby.
+</div>
+</div>
+<div class="controls d-flex align-items-center">
+<a class="btn btn-default append-right-10" data-track-event="click_button" data-track-label="template_preview" data-track-property="gatsby" data-track-value="" href="https://gitlab.com/pages/gatsby" rel="noopener noreferrer" target="_blank">
+Preview
+</a>
+<label class="btn btn-success template-button choose-template append-bottom-0" for="gatsby">
+<input autocomplete="off" data-track-event="click_button" data-track-label="template_use" data-track-property="gatsby" data-track-value="" id="gatsby" name="project[template_name]" type="radio" value="gatsby">
+<span data-qa-selector="use_template_button">
+Use template
+</span>
+</label>
+</div>
+</div>
+<div class="template-option d-flex align-items-center" data-qa-selector="template_option_row">
+<div class="logo append-right-10 px-1">
+<img class="btn-template-icon icon-hugo lazy" data-src="https://assets.gitlab-static.net/assets/illustrations/gitlab_logo-d7afffa3f05ae21d2d18577649baff300533bf86358436737eb0ab75bd39aa3a.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="32" height="32">
+</div>
+<div class="description">
+<strong>
+Pages/Hugo
+</strong>
+<br>
+<div class="text-muted">
+Everything you need to create a GitLab Pages site using Hugo.
+</div>
+</div>
+<div class="controls d-flex align-items-center">
+<a class="btn btn-default append-right-10" data-track-event="click_button" data-track-label="template_preview" data-track-property="hugo" data-track-value="" href="https://gitlab.com/pages/hugo" rel="noopener noreferrer" target="_blank">
+Preview
+</a>
+<label class="btn btn-success template-button choose-template append-bottom-0" for="hugo">
+<input autocomplete="off" data-track-event="click_button" data-track-label="template_use" data-track-property="hugo" data-track-value="" id="hugo" name="project[template_name]" type="radio" value="hugo">
+<span data-qa-selector="use_template_button">
+Use template
+</span>
+</label>
+</div>
+</div>
+<div class="template-option d-flex align-items-center" data-qa-selector="template_option_row">
+<div class="logo append-right-10 px-1">
+<img class="btn-template-icon icon-jekyll lazy" data-src="https://assets.gitlab-static.net/assets/illustrations/gitlab_logo-d7afffa3f05ae21d2d18577649baff300533bf86358436737eb0ab75bd39aa3a.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="32" height="32">
+</div>
+<div class="description">
+<strong>
+Pages/Jekyll
+</strong>
+<br>
+<div class="text-muted">
+Everything you need to create a GitLab Pages site using Jekyll.
+</div>
+</div>
+<div class="controls d-flex align-items-center">
+<a class="btn btn-default append-right-10" data-track-event="click_button" data-track-label="template_preview" data-track-property="jekyll" data-track-value="" href="https://gitlab.com/pages/jekyll" rel="noopener noreferrer" target="_blank">
+Preview
+</a>
+<label class="btn btn-success template-button choose-template append-bottom-0" for="jekyll">
+<input autocomplete="off" data-track-event="click_button" data-track-label="template_use" data-track-property="jekyll" data-track-value="" id="jekyll" name="project[template_name]" type="radio" value="jekyll">
+<span data-qa-selector="use_template_button">
+Use template
+</span>
+</label>
+</div>
+</div>
+<div class="template-option d-flex align-items-center" data-qa-selector="template_option_row">
+<div class="logo append-right-10 px-1">
+<img class="btn-template-icon icon-plainhtml lazy" data-src="https://assets.gitlab-static.net/assets/illustrations/gitlab_logo-d7afffa3f05ae21d2d18577649baff300533bf86358436737eb0ab75bd39aa3a.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="32" height="32">
+</div>
+<div class="description">
+<strong>
+Pages/Plain HTML
+</strong>
+<br>
+<div class="text-muted">
+Everything you need to create a GitLab Pages site using plain HTML.
+</div>
+</div>
+<div class="controls d-flex align-items-center">
+<a class="btn btn-default append-right-10" data-track-event="click_button" data-track-label="template_preview" data-track-property="plainhtml" data-track-value="" href="https://gitlab.com/pages/plain-html" rel="noopener noreferrer" target="_blank">
+Preview
+</a>
+<label class="btn btn-success template-button choose-template append-bottom-0" for="plainhtml">
+<input autocomplete="off" data-track-event="click_button" data-track-label="template_use" data-track-property="plainhtml" data-track-value="" id="plainhtml" name="project[template_name]" type="radio" value="plainhtml">
+<span data-qa-selector="use_template_button">
+Use template
+</span>
+</label>
+</div>
+</div>
+<div class="template-option d-flex align-items-center" data-qa-selector="template_option_row">
+<div class="logo append-right-10 px-1">
+<img class="btn-template-icon icon-gitbook lazy" data-src="https://assets.gitlab-static.net/assets/illustrations/gitlab_logo-d7afffa3f05ae21d2d18577649baff300533bf86358436737eb0ab75bd39aa3a.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="32" height="32">
+</div>
+<div class="description">
+<strong>
+Pages/GitBook
+</strong>
+<br>
+<div class="text-muted">
+Everything you need to create a GitLab Pages site using GitBook.
+</div>
+</div>
+<div class="controls d-flex align-items-center">
+<a class="btn btn-default append-right-10" data-track-event="click_button" data-track-label="template_preview" data-track-property="gitbook" data-track-value="" href="https://gitlab.com/pages/gitbook" rel="noopener noreferrer" target="_blank">
+Preview
+</a>
+<label class="btn btn-success template-button choose-template append-bottom-0" for="gitbook">
+<input autocomplete="off" data-track-event="click_button" data-track-label="template_use" data-track-property="gitbook" data-track-value="" id="gitbook" name="project[template_name]" type="radio" value="gitbook">
+<span data-qa-selector="use_template_button">
+Use template
+</span>
+</label>
+</div>
+</div>
+<div class="template-option d-flex align-items-center" data-qa-selector="template_option_row">
+<div class="logo append-right-10 px-1">
+<img class="btn-template-icon icon-hexo lazy" data-src="https://assets.gitlab-static.net/assets/illustrations/gitlab_logo-d7afffa3f05ae21d2d18577649baff300533bf86358436737eb0ab75bd39aa3a.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="32" height="32">
+</div>
+<div class="description">
+<strong>
+Pages/Hexo
+</strong>
+<br>
+<div class="text-muted">
+Everything you need to create a GitLab Pages site using Hexo.
+</div>
+</div>
+<div class="controls d-flex align-items-center">
+<a class="btn btn-default append-right-10" data-track-event="click_button" data-track-label="template_preview" data-track-property="hexo" data-track-value="" href="https://gitlab.com/pages/hexo" rel="noopener noreferrer" target="_blank">
+Preview
+</a>
+<label class="btn btn-success template-button choose-template append-bottom-0" for="hexo">
+<input autocomplete="off" data-track-event="click_button" data-track-label="template_use" data-track-property="hexo" data-track-value="" id="hexo" name="project[template_name]" type="radio" value="hexo">
+<span data-qa-selector="use_template_button">
+Use template
+</span>
+</label>
+</div>
+</div>
+<div class="template-option d-flex align-items-center" data-qa-selector="template_option_row">
+<div class="logo append-right-10 px-1">
+<img class="btn-template-icon icon-nfhugo lazy" data-src="https://assets.gitlab-static.net/assets/illustrations/logos/netlify-ad75424e54ef93709c48419cb2e2a161e4a0ec40c4d0477e9be5cc964a22ea81.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="32" height="32">
+</div>
+<div class="description">
+<strong>
+Netlify/Hugo
+</strong>
+<br>
+<div class="text-muted">
+A Hugo site that uses Netlify for CI/CD instead of GitLab, but still with all the other great GitLab features.
+</div>
+</div>
+<div class="controls d-flex align-items-center">
+<a class="btn btn-default append-right-10" data-track-event="click_button" data-track-label="template_preview" data-track-property="nfhugo" data-track-value="" href="https://gitlab.com/pages/nfhugo" rel="noopener noreferrer" target="_blank">
+Preview
+</a>
+<label class="btn btn-success template-button choose-template append-bottom-0" for="nfhugo">
+<input autocomplete="off" data-track-event="click_button" data-track-label="template_use" data-track-property="nfhugo" data-track-value="" id="nfhugo" name="project[template_name]" type="radio" value="nfhugo">
+<span data-qa-selector="use_template_button">
+Use template
+</span>
+</label>
+</div>
+</div>
+<div class="template-option d-flex align-items-center" data-qa-selector="template_option_row">
+<div class="logo append-right-10 px-1">
+<img class="btn-template-icon icon-nfjekyll lazy" data-src="https://assets.gitlab-static.net/assets/illustrations/logos/netlify-ad75424e54ef93709c48419cb2e2a161e4a0ec40c4d0477e9be5cc964a22ea81.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="32" height="32">
+</div>
+<div class="description">
+<strong>
+Netlify/Jekyll
+</strong>
+<br>
+<div class="text-muted">
+A Jekyll site that uses Netlify for CI/CD instead of GitLab, but still with all the other great GitLab features.
+</div>
+</div>
+<div class="controls d-flex align-items-center">
+<a class="btn btn-default append-right-10" data-track-event="click_button" data-track-label="template_preview" data-track-property="nfjekyll" data-track-value="" href="https://gitlab.com/pages/nfjekyll" rel="noopener noreferrer" target="_blank">
+Preview
+</a>
+<label class="btn btn-success template-button choose-template append-bottom-0" for="nfjekyll">
+<input autocomplete="off" data-track-event="click_button" data-track-label="template_use" data-track-property="nfjekyll" data-track-value="" id="nfjekyll" name="project[template_name]" type="radio" value="nfjekyll">
+<span data-qa-selector="use_template_button">
+Use template
+</span>
+</label>
+</div>
+</div>
+<div class="template-option d-flex align-items-center" data-qa-selector="template_option_row">
+<div class="logo append-right-10 px-1">
+<img class="btn-template-icon icon-nfplainhtml lazy" data-src="https://assets.gitlab-static.net/assets/illustrations/logos/netlify-ad75424e54ef93709c48419cb2e2a161e4a0ec40c4d0477e9be5cc964a22ea81.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="32" height="32">
+</div>
+<div class="description">
+<strong>
+Netlify/Plain HTML
+</strong>
+<br>
+<div class="text-muted">
+A plain HTML site that uses Netlify for CI/CD instead of GitLab, but still with all the other great GitLab features.
+</div>
+</div>
+<div class="controls d-flex align-items-center">
+<a class="btn btn-default append-right-10" data-track-event="click_button" data-track-label="template_preview" data-track-property="nfplainhtml" data-track-value="" href="https://gitlab.com/pages/nfplain-html" rel="noopener noreferrer" target="_blank">
+Preview
+</a>
+<label class="btn btn-success template-button choose-template append-bottom-0" for="nfplainhtml">
+<input autocomplete="off" data-track-event="click_button" data-track-label="template_use" data-track-property="nfplainhtml" data-track-value="" id="nfplainhtml" name="project[template_name]" type="radio" value="nfplainhtml">
+<span data-qa-selector="use_template_button">
+Use template
+</span>
+</label>
+</div>
+</div>
+<div class="template-option d-flex align-items-center" data-qa-selector="template_option_row">
+<div class="logo append-right-10 px-1">
+<img class="btn-template-icon icon-nfgitbook lazy" data-src="https://assets.gitlab-static.net/assets/illustrations/logos/netlify-ad75424e54ef93709c48419cb2e2a161e4a0ec40c4d0477e9be5cc964a22ea81.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="32" height="32">
+</div>
+<div class="description">
+<strong>
+Netlify/GitBook
+</strong>
+<br>
+<div class="text-muted">
+A GitBook site that uses Netlify for CI/CD instead of GitLab, but still with all the other great GitLab features.
+</div>
+</div>
+<div class="controls d-flex align-items-center">
+<a class="btn btn-default append-right-10" data-track-event="click_button" data-track-label="template_preview" data-track-property="nfgitbook" data-track-value="" href="https://gitlab.com/pages/nfgitbook" rel="noopener noreferrer" target="_blank">
+Preview
+</a>
+<label class="btn btn-success template-button choose-template append-bottom-0" for="nfgitbook">
+<input autocomplete="off" data-track-event="click_button" data-track-label="template_use" data-track-property="nfgitbook" data-track-value="" id="nfgitbook" name="project[template_name]" type="radio" value="nfgitbook">
+<span data-qa-selector="use_template_button">
+Use template
+</span>
+</label>
+</div>
+</div>
+<div class="template-option d-flex align-items-center" data-qa-selector="template_option_row">
+<div class="logo append-right-10 px-1">
+<img class="btn-template-icon icon-nfhexo lazy" data-src="https://assets.gitlab-static.net/assets/illustrations/logos/netlify-ad75424e54ef93709c48419cb2e2a161e4a0ec40c4d0477e9be5cc964a22ea81.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="32" height="32">
+</div>
+<div class="description">
+<strong>
+Netlify/Hexo
+</strong>
+<br>
+<div class="text-muted">
+A Hexo site that uses Netlify for CI/CD instead of GitLab, but still with all the other great GitLab features.
+</div>
+</div>
+<div class="controls d-flex align-items-center">
+<a class="btn btn-default append-right-10" data-track-event="click_button" data-track-label="template_preview" data-track-property="nfhexo" data-track-value="" href="https://gitlab.com/pages/nfhexo" rel="noopener noreferrer" target="_blank">
+Preview
+</a>
+<label class="btn btn-success template-button choose-template append-bottom-0" for="nfhexo">
+<input autocomplete="off" data-track-event="click_button" data-track-label="template_use" data-track-property="nfhexo" data-track-value="" id="nfhexo" name="project[template_name]" type="radio" value="nfhexo">
+<span data-qa-selector="use_template_button">
+Use template
+</span>
+</label>
+</div>
+</div>
+<div class="template-option d-flex align-items-center" data-qa-selector="template_option_row">
+<div class="logo append-right-10 px-1">
+<img class="btn-template-icon icon-salesforcedx lazy" data-src="https://assets.gitlab-static.net/assets/illustrations/gitlab_logo-d7afffa3f05ae21d2d18577649baff300533bf86358436737eb0ab75bd39aa3a.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="32" height="32">
+</div>
+<div class="description">
+<strong>
+SalesforceDX
+</strong>
+<br>
+<div class="text-muted">
+A project boilerplate for Salesforce App development with Salesforce Developer tools.
+</div>
+</div>
+<div class="controls d-flex align-items-center">
+<a class="btn btn-default append-right-10" data-track-event="click_button" data-track-label="template_preview" data-track-property="salesforcedx" data-track-value="" href="https://gitlab.com/gitlab-org/project-templates/salesforcedx" rel="noopener noreferrer" target="_blank">
+Preview
+</a>
+<label class="btn btn-success template-button choose-template append-bottom-0" for="salesforcedx">
+<input autocomplete="off" data-track-event="click_button" data-track-label="template_use" data-track-property="salesforcedx" data-track-value="" id="salesforcedx" name="project[template_name]" type="radio" value="salesforcedx">
+<span data-qa-selector="use_template_button">
+Use template
+</span>
+</label>
+</div>
+</div>
+<div class="template-option d-flex align-items-center" data-qa-selector="template_option_row">
+<div class="logo append-right-10 px-1">
+<img class="btn-template-icon icon-serverless_framework lazy" data-src="https://assets.gitlab-static.net/assets/illustrations/logos/serverless_framework-88e039613ed3d142f3155566464f249d35febc0fa9bf83a6f95bea1aad38baca.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="32" height="32">
+</div>
+<div class="description">
+<strong>
+Serverless Framework/JS
+</strong>
+<br>
+<div class="text-muted">
+A basic page and serverless function that uses AWS Lambda, AWS API Gateway, and GitLab Pages
+</div>
+</div>
+<div class="controls d-flex align-items-center">
+<a class="btn btn-default append-right-10" data-track-event="click_button" data-track-label="template_preview" data-track-property="serverless_framework" data-track-value="" href="https://gitlab.com/gitlab-org/project-templates/serverless-framework" rel="noopener noreferrer" target="_blank">
+Preview
+</a>
+<label class="btn btn-success template-button choose-template append-bottom-0" for="serverless_framework">
+<input autocomplete="off" data-track-event="click_button" data-track-label="template_use" data-track-property="serverless_framework" data-track-value="" id="serverless_framework" name="project[template_name]" type="radio" value="serverless_framework">
+<span data-qa-selector="use_template_button">
+Use template
+</span>
+</label>
+</div>
+</div>
+<div class="template-option d-flex align-items-center" data-qa-selector="template_option_row">
+<div class="logo append-right-10 px-1">
+<img class="btn-template-icon icon-cluster_management lazy" data-src="https://assets.gitlab-static.net/assets/illustrations/gitlab_logo-d7afffa3f05ae21d2d18577649baff300533bf86358436737eb0ab75bd39aa3a.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="32" height="32">
+</div>
+<div class="description">
+<strong>
+GitLab Cluster Management
+</strong>
+<br>
+<div class="text-muted">
+An example project for managing Kubernetes clusters integrated with GitLab.
+</div>
+</div>
+<div class="controls d-flex align-items-center">
+<a class="btn btn-default append-right-10" data-track-event="click_button" data-track-label="template_preview" data-track-property="cluster_management" data-track-value="" href="https://gitlab.com/gitlab-org/project-templates/cluster-management" rel="noopener noreferrer" target="_blank">
+Preview
+</a>
+<label class="btn btn-success template-button choose-template append-bottom-0" for="cluster_management">
+<input autocomplete="off" data-track-event="click_button" data-track-label="template_use" data-track-property="cluster_management" data-track-value="" id="cluster_management" name="project[template_name]" type="radio" value="cluster_management">
+<span data-qa-selector="use_template_button">
+Use template
+</span>
+</label>
+</div>
+</div>
+<div class="template-option d-flex align-items-center" data-qa-selector="template_option_row">
+<div class="logo append-right-10 px-1">
+<img class="btn-template-icon icon-hipaa_audit_protocol lazy" data-src="https://assets.gitlab-static.net/assets/illustrations/gitlab_logo-d7afffa3f05ae21d2d18577649baff300533bf86358436737eb0ab75bd39aa3a.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="32" height="32">
+</div>
+<div class="description">
+<strong>
+HIPAA Audit Protocol
+</strong>
+<br>
+<div class="text-muted">
+A project containing issues for each audit inquiry in the HIPAA Audit Protocol published by the U.S. Department of Health &amp; Human Services
+</div>
+</div>
+<div class="controls d-flex align-items-center">
+<a class="btn btn-default append-right-10" data-track-event="click_button" data-track-label="template_preview" data-track-property="hipaa_audit_protocol" data-track-value="" href="https://gitlab.com/gitlab-org/project-templates/hipaa-audit-protocol" rel="noopener noreferrer" target="_blank">
+Preview
+</a>
+<label class="btn btn-success template-button choose-template append-bottom-0" for="hipaa_audit_protocol">
+<input autocomplete="off" data-track-event="click_button" data-track-label="template_use" data-track-property="hipaa_audit_protocol" data-track-value="" id="hipaa_audit_protocol" name="project[template_name]" type="radio" value="hipaa_audit_protocol">
+<span data-qa-selector="use_template_button">
+Use template
+</span>
+</label>
+</div>
+</div>
+
+</div>
+<div class="project-templates-buttons import-buttons tab-pane js-custom-instance-project-templates-tab-content" data-initial-templates="/users/pepm17/available_project_templates" id="custom-instance-project-templates">
+<div class="text-center m-4">
+<i aria-hidden="true" data-hidden="true" class="fa fa-spin fa-spinner fa-2x"></i>
+</div>
+</div>
+<div class="project-templates-buttons import-buttons tab-pane js-custom-group-project-templates-tab-content" data-initial-templates="/users/pepm17/available_group_templates" id="custom-group-project-templates">
+<div class="text-center m-4">
+<i aria-hidden="true" data-hidden="true" class="fa fa-spin fa-spinner fa-2x"></i>
+</div>
+</div>
+</div>
+<div class="project-fields-form">
+<div class="row">
+<div class="form-group col-sm-12">
+<label class="label-bold">
+Template
+</label>
+<div class="input-group template-input-group">
+<div class="input-group-prepend">
+<div class="input-group-text">
+<div class="selected-icon append-right-10"></div>
+<div class="selected-template"></div>
+</div>
+</div>
+<div class="input-group-append">
+<button class="btn btn-default change-template" type="button">
+Change template
+</button>
+</div>
+</div>
+</div>
+</div>
+
+<input value="false" type="hidden" name="project[use_custom_template]" id="project_use_custom_template">
+<input class="js-project-group-with-project-templates-id" type="hidden" name="project[group_with_project_templates_id]" id="project_group_with_project_templates_id">
+<div class="row" id="template-project-name">
+<input value="false" type="hidden" name="project[ci_cd_only]" id="project_ci_cd_only">
+<div class="form-group project-name col-sm-12">
+<label class="label-bold" for="project_name"><span>Project name</span>
+</label><input placeholder="My awesome project" class="form-control input-lg" autofocus="autofocus" data-track-label="create_from_template" data-track-event="activate_form_input" data-track-property="project_name" data-track-value="" type="text" name="project[name]" id="project_name">
+</div>
+<div class="form-group project-path col-sm-6">
+<label class="label-bold" for="project_namespace_id"><span>Project URL</span>
+</label><div class="input-group flex-nowrap">
+<div class="input-group-prepend static-namespace flex-shrink-0 has-tooltip" title="https://gitlab.com/pepm17/">
+<div class="input-group-text border-0">
+https://gitlab.com/pepm17/
+</div>
+</div>
+<input value="7003510" type="hidden" name="project[namespace_id]" id="project_namespace_id">
+</div>
+</div>
+<div class="form-group project-path col-sm-6">
+<label class="label-bold" for="project_path"><span>Project slug</span>
+</label><input placeholder="my-awesome-project" class="form-control" required="required" type="text" name="project[path]" id="project_path">
+</div>
+</div>
+<div class="form-text text-muted">
+Want to house several dependent projects under the same namespace? <a href="/groups/new">Create a group.</a>
+</div>
+<div class="form-group">
+<label class="label-bold" for="project_description">Project description <span>(optional)</span>
+</label><textarea placeholder="Description format" class="form-control" rows="3" maxlength="250" data-track-label="create_from_template" data-track-event="activate_form_input" data-track-property="project_description" data-track-value="" name="project[description]" id="project_description"></textarea>
+</div>
+<label class="label-bold" for="project_visibility_level">Visibility Level
+<a aria-label="Documentation for Visibility Level" target="_blank" rel="noopener noreferrer" href="/help/public_access/public_access"><i aria-hidden="true" data-hidden="true" class="fa fa-question-circle"></i></a>
+</label><div class="form-group visibility-level-setting">
+<div class="form-check">
+<input class="form-check-input" data-track-label="blank_project" data-track-event="activate_form_input" data-track-property="visibility_level_0" data-track-value="" data-qa-selector="private_radio" type="radio" value="0" checked="checked" name="project[visibility_level]" id="project_visibility_level_0">
+<label class="form-check-label" for="project_visibility_level_0"><i aria-hidden="true" data-hidden="true" class="fa fa-lock fa-fw"></i>
+<div class="option-title">
+Private
+</div>
+<div class="option-description">
+Project access must be granted explicitly to each user. If this project is part of a group, access will be granted to members of the group.
+</div>
+</label></div>
+<div class="form-check">
+<input class="form-check-input" data-track-label="blank_project" data-track-event="activate_form_input" data-track-property="visibility_level_20" data-track-value="" data-qa-selector="public_radio" type="radio" value="20" name="project[visibility_level]" id="project_visibility_level_20">
+<label class="form-check-label" for="project_visibility_level_20"><i aria-hidden="true" data-hidden="true" class="fa fa-globe fa-fw"></i>
+<div class="option-title">
+Public
+</div>
+<div class="option-description">
+The project can be accessed without any authentication.
+</div>
+</label></div>
+<div class="text-muted">
+</div>
+
+</div>
+
+<input type="submit" name="commit" value="Create project" class="btn btn-success project-submit" data-track-label="create_from_template" data-track-event="click_button" data-track-property="create_project" data-track-value="" data-disable-with="Create project">
+<a class="btn btn-cancel" data-track-label="create_from_template" data-track-event="click_button" data-track-property="cancel" data-track-value="" href="/dashboard/projects">Cancel</a>
+
+</div>
+
+</div>
+</div>
+</div>
+</form></div>
+<div class="import-project-pane js-toggle-container tab-pane" id="import-project-pane" role="tabpanel">
+<div class="project-import">
+<div class="form-group import-btn-container clearfix">
+<h5>
+Import project from
+</h5>
+<div class="import-buttons">
+<div class="import_gitlab_project has-tooltip" data-container="body">
+<a class="btn btn_import_gitlab_project project-submit" data-track-label="import_project" data-track-event="click_button" data-track-property="gitlab_export" href="/import/gitlab_project/new"><i aria-hidden="true" data-hidden="true" class="fa fa-gitlab"></i> GitLab export
+</a></div>
+<div>
+<a class="btn js-import-github" data-track-label="import_project" data-track-event="click_button" data-track-property="github" href="/import/github/new"><i aria-hidden="true" data-hidden="true" class="fa fa-github"></i> GitHub
+</a></div>
+<div>
+<a class="btn import_bitbucket " data-track-label="import_project" data-track-event="click_button" data-track-property="bitbucket_cloud" href="/import/bitbucket/status"><i aria-hidden="true" data-hidden="true" class="fa fa-bitbucket"></i> Bitbucket Cloud
+</a></div>
+<div>
+<a class="btn import_bitbucket" data-track-label="import_project" data-track-event="click_button" data-track-property="bitbucket_server" href="/import/bitbucket_server/status"><i aria-hidden="true" data-hidden="true" class="fa fa-bitbucket-square"></i> Bitbucket Server
+</a></div>
+<div></div>
+<div>
+<a class="btn import_google_code" data-track-label="import_project" data-track-event="click_button" data-track-property="google_code" href="/import/google_code/new"><i aria-hidden="true" data-hidden="true" class="fa fa-google"></i> Google Code
+</a></div>
+<div>
+<a class="btn import_fogbugz" data-track-label="import_project" data-track-event="click_button" data-track-property="fogbugz" href="/import/fogbugz/new"><i aria-hidden="true" data-hidden="true" class="fa fa-bug"></i> Fogbugz
+</a></div>
+<div>
+<a class="btn import_gitea" data-track-label="import_project" data-track-event="click_button" data-track-property="gitea" href="/import/gitea/new"><!--?xml version="1.0" encoding="UTF-8" standalone="yes"?--><!-- Created with Inkscape (http://www.inkscape.org/) --><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="16" height="16" viewBox="0 0 135.46667 135.46667" version="1.1" id="svg8" sodipodi:docname="logo.svg" inkscape:version="0.92.1 r15371" inkscape:export-filename="" inkscape:export-xdpi="48.000004" inkscape:export-ydpi="48.000004" style="zoom: 1;"><defs id="defs2"></defs><sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:zoom="0.70710678" inkscape:cx="418.13805" inkscape:cy="177.57445" inkscape:document-units="mm" inkscape:current-layer="layer2" showgrid="false" units="px" width="256px" showguides="false" inkscape:window-width="1920" inkscape:window-height="1137" inkscape:window-x="1912" inkscape:window-y="-8" inkscape:window-maximized="1" inkscape:pagecheckerboard="false" inkscape:measure-start="283.373,243.952" inkscape:measure-end="290.267,236.527"><sodipodi:guide position="0,0" orientation="0,512" id="guide3699" inkscape:locked="false"></sodipodi:guide><sodipodi:guide position="135.46667,0" orientation="-512,0" id="guide3701" inkscape:locked="false"></sodipodi:guide><sodipodi:guide position="135.46667,135.46667" orientation="0,-512" id="guide3703" inkscape:locked="false"></sodipodi:guide><sodipodi:guide position="0,135.46667" orientation="512,0" id="guide3705" inkscape:locked="false"></sodipodi:guide></sodipodi:namedview><metadata id="metadata5"><rdf:rdf><cc:work rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type><dc:title></dc:title></cc:work></rdf:rdf></metadata><g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(0,-161.53334)" style="display:inline"><path d="M27.709937,195.15095 c-9.546573,-0.0272 -22.3392732,6.79805 -21.6317552,23.90397 c1.105534,26.72889 25.4565952,29.20839 35.1916502,29.42301 c1.068023,5.01357 12.521798,22.30563 21.001818,23.21667 h37.15277 c22.27763,-1.66785 38.9607,-75.75671 26.59321,-76.03825 c-46.781583,2.47691 -49.995146,2.13838 -88.599758,0 c-2.495053,-0.0266 -5.972321,-0.49474 -9.707935,-0.5054  z m2.491319,9.45886 c1.351378,13.69267 3.555849,21.70359 8.018216,33.94345 c-11.382872,-1.50473 -21.069822,-5.22443 -22.851515,-19.10984 c-0.950962,-7.4112 2.390428,-15.16769 14.833299,-14.83361  z " id="path3722" sodipodi:nodetypes="sscccccsccsc" inkscape:connector-curvature="0" style="fill:#000;fill-opacity:1;stroke:#000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"></path></g><g inkscape:groupmode="layer" id="layer2" inkscape:label="Layer 2" style="display:inline"><rect style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.24757317;stroke-opacity:1" id="rect4599" width="34.762054" height="34.762054" x="87.508659" y="18.291576" transform="rotate(25.914715)" ry="5.4825778"></rect><path style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26644793px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="m 79.804947,57.359056 3.241146,1.609954 V 35.255731 h -3.262698 z" id="path4525" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccc"></path></g><g inkscape:groupmode="layer" id="layer3" inkscape:label="Layer 3" style="display:inline"><g style="display:inline" id="g4539"><circle style="fill:#000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1" id="path4606" cy="90.077766" r="3.4745038" cx="49.064713" transform="rotate(-19.796137)"></circle><circle style="fill:#000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1" id="path4606-3" cy="102.1049" r="3.4745038" cx="36.810425" transform="rotate(-19.796137)"></circle><circle style="fill:#000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1" id="path4606-1" cy="111.43928" r="3.4745038" cx="46.484283" transform="rotate(-19.796137)"></circle><rect height="27.261492" style="fill:#000;fill-opacity:1;stroke:none;stroke-width:0.27444693;stroke-opacity:1" x="97.333458" y="18.061695" id="rect4629-8" width="2.6726954" transform="rotate(26.024158)"></rect><path d="M76.558096,68.116343 c12.97589,6.395378 13.012989,4.101862 4.890858,20.907244 " id="path4514" sodipodi:nodetypes="cc" inkscape:connector-curvature="0" style="fill:none;stroke:#000;stroke-width:2.68000007;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"></path></g></g></svg>
+Gitea
+</a></div>
+<div>
+<button class="btn js-toggle-button js-import-git-toggle-button" data-track-event="click_button" data-track-label="import_project" data-track-property="repo_url" type="button">
+<i aria-hidden="true" data-hidden="true" class="fa fa-git"></i> Repo by URL
+</button>
+</div>
+<div>
+<a class="btn import_manifest" data-track-label="import_project" data-track-event="click_button" data-track-property="manifest_file" href="/import/manifest/new"><i aria-hidden="true" data-hidden="true" class="fa fa-file-text-o"></i> Manifest file
+</a></div>
+</div>
+</div>
+<div class="hide js-toggle-content toggle-import-form">
+<form class="new_project" id="new_project" action="/projects" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="oIyxZ3Nb34ZtloSQTV+Okuzmogv/qH73yhfG+j+RcV1jF/bT09hAkBkl7AUhmXbV7SMKydPWWKCXhQYfzk2vNg=="><hr>
+<div class="import-url-data">
+<div class="form-group">
+<label class="label-bold" for="project_import_url"><span>
+Git repository URL
+</span>
+</label><input value="" autocomplete="off" class="form-control" placeholder="https://gitlab.company.com/group/project.git" required="required" type="text" name="project[import_url]" id="project_import_url">
+</div>
+<div class="row">
+<div class="form-group col-md-6">
+<label class="label-bold" for="project_import_url_user"><span>
+Username (optional)
+</span>
+</label><input class="form-control" autocomplete="new-password" type="text" name="project[import_url_user]" id="project_import_url_user">
+</div>
+<div class="form-group col-md-6">
+<label class="label-bold" for="project_import_url_password"><span>
+Password (optional)
+</span>
+</label><input class="form-control" autocomplete="new-password" type="password" name="project[import_url_password]" id="project_import_url_password">
+</div>
+</div>
+<div class="info-well prepend-top-20">
+<div class="well-segment">
+<ul>
+<li>
+The repository must be accessible over <code>http://</code>, <code>https://</code> or <code>git://</code>.
+</li>
+<li>When using the <code>http://</code> or <code>https://</code> protocols, please provide the exact URL to the repository. HTTP redirects will not be followed.</li>
+<li>
+If your HTTP repository is not publicly accessible, add your credentials.
+</li>
+<li>
+The import will time out after 180 minutes. For repositories that take longer, use a clone/push combination.
+</li>
+<li>
+To import an SVN repository, check out <a href="/help/user/project/import/svn">this document</a>.
+</li>
+<li>
+Once imported, repositories can be mirrored over SSH. Read more <a href="/help//workflow/repository_mirroring.md#ssh-authentication" rel="noopener noreferrer" target="_blank">here</a>.
+</li>
+
+</ul>
+</div>
+</div>
+</div>
+<div class="form-group">
+<label class="label-bold" for="project_mirror"><input name="project[mirror]" disabled="disabled" type="hidden" value="0"><input disabled="disabled" type="checkbox" value="1" name="project[mirror]" id="project_mirror">
+<strong>Mirror repository</strong>
+</label><div class="form-text text-muted">
+Automatically update this project's branches and tags from the upstream repository every hour.
+</div>
+<div class="form-text text-muted">
+Mirroring will only be available if the feature is included in the plan of the selected group or user.
+</div>
+</div>
+
+
+<div class="row" id="import-url-name">
+<input value="false" type="hidden" name="project[ci_cd_only]" id="project_ci_cd_only">
+<div class="form-group project-name col-sm-12">
+<label class="label-bold" for="project_name"><span>Project name</span>
+</label><input placeholder="My awesome project" class="form-control input-lg" autofocus="autofocus" data-track-label="import_project" data-track-event="activate_form_input" data-track-property="project_name" data-track-value="" type="text" name="project[name]" id="project_name">
+</div>
+<div class="form-group project-path col-sm-6">
+<label class="label-bold" for="project_namespace_id"><span>Project URL</span>
+</label><div class="input-group flex-nowrap">
+<div class="input-group-prepend static-namespace flex-shrink-0 has-tooltip" title="https://gitlab.com/pepm17/">
+<div class="input-group-text border-0">
+https://gitlab.com/pepm17/
+</div>
+</div>
+<input value="7003510" type="hidden" name="project[namespace_id]" id="project_namespace_id">
+</div>
+</div>
+<div class="form-group project-path col-sm-6">
+<label class="label-bold" for="project_path"><span>Project slug</span>
+</label><input placeholder="my-awesome-project" class="form-control" required="required" type="text" name="project[path]" id="project_path">
+</div>
+</div>
+<div class="form-text text-muted">
+Want to house several dependent projects under the same namespace? <a href="/groups/new">Create a group.</a>
+</div>
+<div class="form-group">
+<label class="label-bold" for="project_description">Project description <span>(optional)</span>
+</label><textarea placeholder="Description format" class="form-control" rows="3" maxlength="250" data-track-label="import_project" data-track-event="activate_form_input" data-track-property="project_description" data-track-value="" name="project[description]" id="project_description"></textarea>
+</div>
+<label class="label-bold" for="project_visibility_level">Visibility Level
+<a aria-label="Documentation for Visibility Level" target="_blank" rel="noopener noreferrer" href="/help/public_access/public_access"><i aria-hidden="true" data-hidden="true" class="fa fa-question-circle"></i></a>
+</label><div class="form-group visibility-level-setting">
+<div class="form-check">
+<input class="form-check-input" data-track-label="blank_project" data-track-event="activate_form_input" data-track-property="visibility_level_0" data-track-value="" data-qa-selector="private_radio" type="radio" value="0" checked="checked" name="project[visibility_level]" id="project_visibility_level_0">
+<label class="form-check-label" for="project_visibility_level_0"><i aria-hidden="true" data-hidden="true" class="fa fa-lock fa-fw"></i>
+<div class="option-title">
+Private
+</div>
+<div class="option-description">
+Project access must be granted explicitly to each user. If this project is part of a group, access will be granted to members of the group.
+</div>
+</label></div>
+<div class="form-check">
+<input class="form-check-input" data-track-label="blank_project" data-track-event="activate_form_input" data-track-property="visibility_level_20" data-track-value="" data-qa-selector="public_radio" type="radio" value="20" name="project[visibility_level]" id="project_visibility_level_20">
+<label class="form-check-label" for="project_visibility_level_20"><i aria-hidden="true" data-hidden="true" class="fa fa-globe fa-fw"></i>
+<div class="option-title">
+Public
+</div>
+<div class="option-description">
+The project can be accessed without any authentication.
+</div>
+</label></div>
+<div class="text-muted">
+</div>
+
+</div>
+
+<input type="submit" name="commit" value="Create project" class="btn btn-success project-submit" data-track-label="import_project" data-track-event="click_button" data-track-property="create_project" data-track-value="" data-disable-with="Create project">
+<a class="btn btn-cancel" data-track-label="import_project" data-track-event="click_button" data-track-property="cancel" data-track-value="" href="/dashboard/projects">Cancel</a>
+
+</form></div>
+</div>
+
+</div>
+<div class="js-toggle-container tab-pane" id="ci-cd-project-pane" role="tabpanel">
+<form class="new_project" id="new_project" action="/projects" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="oIyxZ3Nb34ZtloSQTV+Okuzmogv/qH73yhfG+j+RcV1jF/bT09hAkBkl7AUhmXbV7SMKydPWWKCXhQYfzk2vNg=="><div class="project-import row">
+<div class="col-lg-12">
+<h4>
+Run CI/CD pipelines for external repositories
+</h4>
+<p>
+Connect your external repositories, and CI/CD pipelines will run for new commits. A GitLab project will be created with only CI/CD features enabled.
+</p>
+<p>
+If using GitHub, you’ll see pipeline statuses on GitHub for your commits and pull requests. <a href="/help/user/project/integrations/github">More info</a>
+</p>
+<div class="form-group import-btn-container prepend-top-20 clearfix">
+<label class="label-bold" for="project_visibility_level">Connect repositories from
+</label><div class="import-buttons">
+<div>
+<a class="btn js-import-github" data-track-label="cicd_for_external_repo" data-track-property="github" data-track-event="click_button" data-track-value="" href="/import/github/new?ci_cd_only=true"><i aria-hidden="true" data-hidden="true" class="fa fa-github"></i> GitHub
+</a></div>
+<div>
+<button class="btn js-toggle-button js-import-git-toggle-button" data-toggle-open-class="active" data-track-event="click_button" data-track-label="cicd_for_external_repo" data-track-property="repo_url" data-track-value="" type="button">
+<i aria-hidden="true" data-hidden="true" class="fa fa-git"></i> Repo by URL
+</button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-12">
+<div class="hide js-toggle-content toggle-import-form">
+<hr>
+<div class="import-url-data">
+<div class="form-group">
+<label class="label-bold" for="project_import_url"><span>
+Git repository URL
+</span>
+</label><input value="" autocomplete="off" class="form-control" placeholder="https://gitlab.company.com/group/project.git" required="required" type="text" name="project[import_url]" id="project_import_url">
+</div>
+<div class="row">
+<div class="form-group col-md-6">
+<label class="label-bold" for="project_import_url_user"><span>
+Username (optional)
+</span>
+</label><input class="form-control" autocomplete="new-password" type="text" name="project[import_url_user]" id="project_import_url_user">
+</div>
+<div class="form-group col-md-6">
+<label class="label-bold" for="project_import_url_password"><span>
+Password (optional)
+</span>
+</label><input class="form-control" autocomplete="new-password" type="password" name="project[import_url_password]" id="project_import_url_password">
+</div>
+</div>
+<div class="info-well prepend-top-20">
+<div class="well-segment">
+<ul>
+<li>
+The repository must be accessible over <code>http://</code>, <code>https://</code> or <code>git://</code>.
+</li>
+<li>When using the <code>http://</code> or <code>https://</code> protocols, please provide the exact URL to the repository. HTTP redirects will not be followed.</li>
+<li>
+If your HTTP repository is not publicly accessible, add your credentials.
+</li>
+<li>
+The connection will time out after 180 minutes. For repositories that take longer, use a clone/push combination.
+</li>
+<li>
+To connect an SVN repository, check out <a href="/help/user/project/import/svn">this document</a>.
+</li>
+
+</ul>
+</div>
+</div>
+</div>
+
+
+<div class="row" id="import-url-name">
+<input value="true" type="hidden" name="project[ci_cd_only]" id="project_ci_cd_only">
+<div class="form-group project-name col-sm-12">
+<label class="label-bold" for="project_name"><span>Project name</span>
+</label><input placeholder="My awesome project" class="form-control input-lg" autofocus="autofocus" data-track-label="cicd_for_external_repo" data-track-event="activate_form_input" data-track-property="project_name" data-track-value="" type="text" name="project[name]" id="project_name">
+</div>
+<div class="form-group project-path col-sm-6">
+<label class="label-bold" for="project_namespace_id"><span>Project URL</span>
+</label><div class="input-group flex-nowrap">
+<div class="input-group-prepend static-namespace flex-shrink-0 has-tooltip" title="https://gitlab.com/pepm17/">
+<div class="input-group-text border-0">
+https://gitlab.com/pepm17/
+</div>
+</div>
+<input value="7003510" type="hidden" name="project[namespace_id]" id="project_namespace_id">
+</div>
+</div>
+<div class="form-group project-path col-sm-6">
+<label class="label-bold" for="project_path"><span>Project slug</span>
+</label><input placeholder="my-awesome-project" class="form-control" required="required" type="text" name="project[path]" id="project_path">
+</div>
+</div>
+<div class="form-text text-muted">
+Want to house several dependent projects under the same namespace? <a href="/groups/new">Create a group.</a>
+</div>
+<div class="form-group">
+<label class="label-bold" for="project_description">Project description <span>(optional)</span>
+</label><textarea placeholder="Description format" class="form-control" rows="3" maxlength="250" data-track-label="cicd_for_external_repo" data-track-event="activate_form_input" data-track-property="project_description" data-track-value="" name="project[description]" id="project_description"></textarea>
+</div>
+<label class="label-bold" for="project_visibility_level">Visibility Level
+<a aria-label="Documentation for Visibility Level" target="_blank" rel="noopener noreferrer" href="/help/public_access/public_access"><i aria-hidden="true" data-hidden="true" class="fa fa-question-circle"></i></a>
+</label><div class="form-group visibility-level-setting">
+<div class="form-check">
+<input class="form-check-input" data-track-label="blank_project" data-track-event="activate_form_input" data-track-property="visibility_level_0" data-track-value="" data-qa-selector="private_radio" type="radio" value="0" checked="checked" name="project[visibility_level]" id="project_visibility_level_0">
+<label class="form-check-label" for="project_visibility_level_0"><i aria-hidden="true" data-hidden="true" class="fa fa-lock fa-fw"></i>
+<div class="option-title">
+Private
+</div>
+<div class="option-description">
+Project access must be granted explicitly to each user. If this project is part of a group, access will be granted to members of the group.
+</div>
+</label></div>
+<div class="form-check">
+<input class="form-check-input" data-track-label="blank_project" data-track-event="activate_form_input" data-track-property="visibility_level_20" data-track-value="" data-qa-selector="public_radio" type="radio" value="20" name="project[visibility_level]" id="project_visibility_level_20">
+<label class="form-check-label" for="project_visibility_level_20"><i aria-hidden="true" data-hidden="true" class="fa fa-globe fa-fw"></i>
+<div class="option-title">
+Public
+</div>
+<div class="option-description">
+The project can be accessed without any authentication.
+</div>
+</label></div>
+<div class="text-muted">
+</div>
+
+</div>
+
+<input type="submit" name="commit" value="Create project" class="btn btn-success project-submit" data-track-label="cicd_for_external_repo" data-track-event="click_button" data-track-property="create_project" data-track-value="" data-disable-with="Create project">
+<a class="btn btn-cancel" data-track-label="cicd_for_external_repo" data-track-event="click_button" data-track-property="cancel" data-track-value="" href="/dashboard/projects">Cancel</a>
+
+
+</div>
+</div>
+</div>
+</form></div>
+
+</div>
+</div>
+</div>
+</div>
+<div class="save-project-loader d-none">
+<div class="center">
+<h2>
+<div class="spinner spinner-md align-text-bottom"></div>
+Creating project &amp; repository.
+</h2>
+<p>
+Please wait a moment, this page will automatically refresh when ready.
+</p>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+</body></html>

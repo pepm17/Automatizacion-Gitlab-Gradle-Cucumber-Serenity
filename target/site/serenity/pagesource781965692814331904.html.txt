@@ -1,0 +1,1117 @@
+<html class="" lang="en"><head prefix="og: http://ogp.me/ns#">
+<meta charset="utf-8">
+<link href="https://assets.gitlab-static.net" rel="dns-prefetch">
+<link crossorigin="" href="https://assets.gitlab-static.net" rel="preconnnect">
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta content="object" property="og:type">
+<meta content="GitLab" property="og:site_name">
+<meta content="pepm17 / ProyectoCucumber1" property="og:title">
+<meta content="Prueba del proyecto cucumber" property="og:description">
+<meta content="https://assets.gitlab-static.net/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="og:image">
+<meta content="64" property="og:image:width">
+<meta content="64" property="og:image:height">
+<meta content="https://gitlab.com/pepm17/proyectocucumber1" property="og:url">
+<meta content="summary" property="twitter:card">
+<meta content="pepm17 / ProyectoCucumber1" property="twitter:title">
+<meta content="Prueba del proyecto cucumber" property="twitter:description">
+<meta content="https://assets.gitlab-static.net/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png" property="twitter:image">
+
+<title>pepm17 / ProyectoCucumber1 · GitLab</title>
+<meta content="Prueba del proyecto cucumber" name="description">
+<link rel="shortcut icon" type="image/png" href="https://gitlab.com/assets/favicon-7901bd695fb93edb07975966062049829afb56cf11511236e61bcf425070e36e.png" id="favicon" data-original-href="https://gitlab.com/assets/favicon-7901bd695fb93edb07975966062049829afb56cf11511236e61bcf425070e36e.png">
+<link rel="stylesheet" media="all" href="https://assets.gitlab-static.net/assets/application-a1024fdbeed3f80bae74c53e3c616f8faa78755bbf7c4917669aa1f1532c68d4.css">
+<link rel="stylesheet" media="print" href="https://assets.gitlab-static.net/assets/print-74c3df10dad473d66660c828e3aa54ca3bfeac6d8bb708643331403fe7211e60.css">
+
+
+<link rel="stylesheet" media="all" href="https://assets.gitlab-static.net/assets/highlight/themes/white-a20fa0d18cb98944b079c02ad5a6f46cb362f986ffd703fda24b3e8e2a4a8874.css">
+<script async="" src="https://assets.gitlab-static.net/assets/snowplow/sp-e10fd598642f1a4dd3e9e0e026f6a1ffa3c31b8a40efd92db3f92d32873baed6.js"></script><script nonce="">
+//<![CDATA[
+window.gon={};gon.api_version="v4";gon.default_avatar_url="https://assets.gitlab-static.net/assets/no_avatar-849f9c04a3a0d0cea2424ae97b27447dc64a7dbfae83c036c45b403392f0e8ba.png";gon.max_file_size=10;gon.asset_host="https://assets.gitlab-static.net";gon.webpack_public_path="https://assets.gitlab-static.net/assets/webpack/";gon.relative_url_root="";gon.shortcuts_path="/help/shortcuts";gon.user_color_scheme="white";gon.sentry_dsn="https://526a2f38a53d44e3a8e69bfa001d1e8b@sentry.gitlab.net/15";gon.sentry_environment=null;gon.gitlab_url="https://gitlab.com";gon.revision="b7c8d2dbb8f";gon.gitlab_logo="https://assets.gitlab-static.net/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png";gon.sprite_icons="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg";gon.sprite_file_icons="https://gitlab.com/assets/file_icons-7262fc6897e02f1ceaf8de43dc33afa5e4f9a2067f4f68ef77dcc87946575e9e.svg";gon.emoji_sprites_css_path="https://assets.gitlab-static.net/assets/emoji_sprites-289eccffb1183c188b630297431be837765d9ff4aed6130cf738586fb307c170.css";gon.test_env=false;gon.disable_animations=null;gon.suggested_label_colors={"#0033CC":"UA blue","#428BCA":"Moderate blue","#44AD8E":"Lime green","#A8D695":"Feijoa","#5CB85C":"Slightly desaturated green","#69D100":"Bright green","#004E00":"Very dark lime green","#34495E":"Very dark desaturated blue","#7F8C8D":"Dark grayish cyan","#A295D6":"Slightly desaturated blue","#5843AD":"Dark moderate blue","#8E44AD":"Dark moderate violet","#FFECDB":"Very pale orange","#AD4363":"Dark moderate pink","#D10069":"Strong pink","#CC0033":"Strong red","#FF0000":"Pure red","#D9534F":"Soft red","#D1D100":"Strong yellow","#F0AD4E":"Soft orange","#AD8D43":"Dark moderate orange"};gon.first_day_of_week=0;gon.ee=true;gon.current_user_id=5316156;gon.current_username="pepm17";gon.current_user_fullname="pepm17";gon.current_user_avatar_url="https://secure.gravatar.com/avatar/1803bcdc6caed33e80cd265008fd3872?s=80\u0026d=identicon";gon.features={"snippetsVue":true,"monacoSnippets":true,"monacoBlobs":false,"monacoCi":false,"snippetsEditVue":false};
+//]]>
+</script>
+
+<script src="https://assets.gitlab-static.net/assets/webpack/runtime.906d94aa.bundle.js" defer="defer"></script>
+<script src="https://assets.gitlab-static.net/assets/webpack/main.707f7dc7.chunk.js" defer="defer"></script>
+<script src="https://assets.gitlab-static.net/assets/webpack/sentry.db1ec698.chunk.js" defer="defer"></script>
+<script src="https://assets.gitlab-static.net/assets/webpack/commons~pages.admin.clusters~pages.admin.clusters.destroy~pages.admin.clusters.edit~pages.admin.clus~1604fff2.f48524c7.chunk.js" defer="defer"></script>
+<script src="https://assets.gitlab-static.net/assets/webpack/commons~pages.admin.application_settings~pages.admin.application_settings.ci_cd~pages.admin.applicat~f441fd58.c6462568.chunk.js" defer="defer"></script>
+<script src="https://assets.gitlab-static.net/assets/webpack/pages.projects.show.d7ee2c0c.chunk.js" defer="defer"></script>
+<script nonce="">
+//<![CDATA[
+window.uploads_path = "/pepm17/proyectocucumber1/uploads";
+
+
+
+//]]>
+</script>
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="eJwlopBS5qusC1EZojAWBBdYdY1EdNsr3dkaHbIP0F4IQWQCWWbJZ0kkdHPd0BEAxg54Hs5ls+azdjyb23Sn3g==">
+<meta name="csp-nonce" content="EA1SMaZ4lbLW0PpJe6MNLg==">
+<meta content="origin-when-cross-origin" name="referrer">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<meta content="#474D57" name="theme-color">
+<link rel="apple-touch-icon" type="image/x-icon" href="https://assets.gitlab-static.net/assets/touch-icon-iphone-5a9cee0e8a51212e70b90c87c12f382c428870c0ff67d1eb034d884b78d2dae7.png">
+<link rel="apple-touch-icon" type="image/x-icon" href="https://assets.gitlab-static.net/assets/touch-icon-ipad-a6eec6aeb9da138e507593b464fdac213047e49d3093fc30e90d9a995df83ba3.png" sizes="76x76">
+<link rel="apple-touch-icon" type="image/x-icon" href="https://assets.gitlab-static.net/assets/touch-icon-iphone-retina-72e2aadf86513a56e050e7f0f2355deaa19cc17ed97bbe5147847f2748e5a3e3.png" sizes="120x120">
+<link rel="apple-touch-icon" type="image/x-icon" href="https://assets.gitlab-static.net/assets/touch-icon-ipad-retina-8ebe416f5313483d9c1bc772b5bbe03ecad52a54eba443e5215a22caed2a16a2.png" sizes="152x152">
+<link color="rgb(226, 67, 41)" href="https://assets.gitlab-static.net/assets/logo-d36b5212042cebc89b96df4bf6ac24e43db316143e89926c0db839ff694d2de4.svg" rel="mask-icon">
+<meta content="https://assets.gitlab-static.net/assets/msapplication-tile-1196ec67452f618d39cdd85e2e3a542f76574c071051ae7effbfde01710eb17d.png" name="msapplication-TileImage">
+<meta content="#30353E" name="msapplication-TileColor">
+
+
+
+<script nonce="">
+//<![CDATA[
+;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","https://assets.gitlab-static.net/assets/snowplow/sp-e10fd598642f1a4dd3e9e0e026f6a1ffa3c31b8a40efd92db3f92d32873baed6.js","snowplow"));
+
+window.snowplowOptions = {"namespace":"gl","hostname":"snowplow.trx.gitlab.net","cookieDomain":".gitlab.com","appId":"gitlab","formTracking":true,"linkClickTracking":true,"igluRegistryUrl":null}
+
+
+//]]>
+</script>
+<style type="text/css">
+.tour-item.active[data-v-068086ea] {
+  background: #f6fafe;
+}
+.tour-item.active .tour-title[data-v-068086ea] {
+  font-weight: bold;
+}
+</style><style type="text/css">.toasted{padding:0 20px}.toasted.rounded{border-radius:24px}.toasted .primary,.toasted.toasted-primary{border-radius:2px;min-height:38px;line-height:1.1em;background-color:#353535;padding:0 20px;font-size:15px;font-weight:300;color:#fff;box-shadow:0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24)}.toasted .primary.success,.toasted.toasted-primary.success{background:#4caf50}.toasted .primary.error,.toasted.toasted-primary.error{background:#f44336}.toasted .primary.info,.toasted.toasted-primary.info{background:#3f51b5}.toasted .primary .action,.toasted.toasted-primary .action{color:#a1c2fa}.toasted.bubble{border-radius:30px;min-height:38px;line-height:1.1em;background-color:#ff7043;padding:0 20px;font-size:15px;font-weight:300;color:#fff;box-shadow:0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24)}.toasted.bubble.success{background:#4caf50}.toasted.bubble.error{background:#f44336}.toasted.bubble.info{background:#3f51b5}.toasted.bubble .action{color:#8e2b0c}.toasted.outline{border-radius:30px;min-height:38px;line-height:1.1em;background-color:#fff;border:1px solid #676767;padding:0 20px;font-size:15px;color:#676767;box-shadow:0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);font-weight:700}.toasted.outline.success{color:#4caf50;border-color:#4caf50}.toasted.outline.error{color:#f44336;border-color:#f44336}.toasted.outline.info{color:#3f51b5;border-color:#3f51b5}.toasted.outline .action{color:#607d8b}.toasted-container{position:fixed;z-index:10000}.toasted-container,.toasted-container.full-width{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column}.toasted-container.full-width{max-width:86%;width:100%}.toasted-container.full-width.fit-to-screen{min-width:100%}.toasted-container.full-width.fit-to-screen .toasted:first-child{margin-top:0}.toasted-container.full-width.fit-to-screen.top-right{top:0;right:0}.toasted-container.full-width.fit-to-screen.top-left{top:0;left:0}.toasted-container.full-width.fit-to-screen.top-center{top:0;left:0;-webkit-transform:translateX(0);transform:translateX(0)}.toasted-container.full-width.fit-to-screen.bottom-right{right:0;bottom:0}.toasted-container.full-width.fit-to-screen.bottom-left{left:0;bottom:0}.toasted-container.full-width.fit-to-screen.bottom-center{left:0;bottom:0;-webkit-transform:translateX(0);transform:translateX(0)}.toasted-container.top-right{top:10%;right:7%}.toasted-container.top-left{top:10%;left:7%}.toasted-container.top-center{top:10%;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}.toasted-container.bottom-right{right:5%;bottom:7%}.toasted-container.bottom-left{left:5%;bottom:7%}.toasted-container.bottom-center{left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);bottom:7%}.toasted-container.bottom-left .toasted,.toasted-container.top-left .toasted{float:left}.toasted-container.bottom-right .toasted,.toasted-container.top-right .toasted{float:right}.toasted-container .toasted{top:35px;width:auto;clear:both;margin-top:10px;position:relative;max-width:100%;height:auto;word-break:normal;display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:justify;justify-content:space-between;box-sizing:inherit}.toasted-container .toasted .fa,.toasted-container .toasted .fab,.toasted-container .toasted .far,.toasted-container .toasted .fas,.toasted-container .toasted .material-icons,.toasted-container .toasted .mdi{margin-right:.5rem;margin-left:-.4rem}.toasted-container .toasted .fa.after,.toasted-container .toasted .fab.after,.toasted-container .toasted .far.after,.toasted-container .toasted .fas.after,.toasted-container .toasted .material-icons.after,.toasted-container .toasted .mdi.after{margin-left:.5rem;margin-right:-.4rem}.toasted-container .toasted .action{text-decoration:none;font-size:.8rem;padding:8px;margin:5px -7px 5px 7px;border-radius:3px;text-transform:uppercase;letter-spacing:.03em;font-weight:600;cursor:pointer}.toasted-container .toasted .action.icon{padding:4px;display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center}.toasted-container .toasted .action.icon .fa,.toasted-container .toasted .action.icon .material-icons,.toasted-container .toasted .action.icon .mdi{margin-right:0;margin-left:4px}.toasted-container .toasted .action.icon:hover{text-decoration:none}.toasted-container .toasted .action:hover{text-decoration:underline}@media only screen and (max-width:600px){#toasted-container{min-width:100%}#toasted-container .toasted:first-child{margin-top:0}#toasted-container.top-right{top:0;right:0}#toasted-container.top-left{top:0;left:0}#toasted-container.top-center{top:0;left:0;-webkit-transform:translateX(0);transform:translateX(0)}#toasted-container.bottom-right{right:0;bottom:0}#toasted-container.bottom-left{left:0;bottom:0}#toasted-container.bottom-center{left:0;bottom:0;-webkit-transform:translateX(0);transform:translateX(0)}#toasted-container.bottom-center,#toasted-container.top-center{-ms-flex-align:stretch!important;align-items:stretch!important}#toasted-container.bottom-left .toasted,#toasted-container.bottom-right .toasted,#toasted-container.top-left .toasted,#toasted-container.top-right .toasted{float:none}#toasted-container .toasted{border-radius:0}}</style><script charset="utf-8" src="https://assets.gitlab-static.net/assets/webpack/vendors~select2.c39eef57.chunk.js"></script></head>
+
+<body class="ui-indigo tab-width-8  gl-browser-chrome gl-platform-windows" data-group="" data-namespace-id="7003510" data-page="projects:show" data-page-type-id="proyectocucumber1" data-project="proyectocucumber1" data-project-id="18136676">
+
+<script nonce="">
+//<![CDATA[
+gl = window.gl || {};
+gl.client = {"isChrome":true,"isWindows":true};
+
+
+//]]>
+</script>
+
+
+<header class="navbar navbar-gitlab navbar-expand-sm js-navbar" data-qa-selector="navbar">
+<a class="sr-only gl-accessibility" href="#content-body" tabindex="1">Skip to content</a>
+<div class="container-fluid">
+<div class="header-content">
+<div class="title-container">
+<h1 class="title">
+<a title="Dashboard" id="logo" href="/"><svg width="24" height="24" class="tanuki-logo" viewBox="0 0 36 36">
+  <path class="tanuki-shape tanuki-left-ear" fill="#e24329" d="M2 14l9.38 9v-9l-4-12.28c-.205-.632-1.176-.632-1.38 0z"></path>
+  <path class="tanuki-shape tanuki-right-ear" fill="#e24329" d="M34 14l-9.38 9v-9l4-12.28c.205-.632 1.176-.632 1.38 0z"></path>
+  <path class="tanuki-shape tanuki-nose" fill="#e24329" d="M18,34.38 3,14 33,14 Z"></path>
+  <path class="tanuki-shape tanuki-left-eye" fill="#fc6d26" d="M18,34.38 11.38,14 2,14 6,25Z"></path>
+  <path class="tanuki-shape tanuki-right-eye" fill="#fc6d26" d="M18,34.38 24.62,14 34,14 30,25Z"></path>
+  <path class="tanuki-shape tanuki-left-cheek" fill="#fca326" d="M2 14L.1 20.16c-.18.565 0 1.2.5 1.56l17.42 12.66z"></path>
+  <path class="tanuki-shape tanuki-right-cheek" fill="#fca326" d="M34 14l1.9 6.16c.18.565 0 1.2-.5 1.56L18 34.38z"></path>
+</svg>
+
+<span class="logo-text d-none d-lg-block prepend-left-8">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 617 169"><path d="M315.26 2.97h-21.8l.1 162.5h88.3v-20.1h-66.5l-.1-142.4M465.89 136.95c-5.5 5.7-14.6 11.4-27 11.4-16.6 0-23.3-8.2-23.3-18.9 0-16.1 11.2-23.8 35-23.8 4.5 0 11.7.5 15.4 1.2v30.1h-.1m-22.6-98.5c-17.6 0-33.8 6.2-46.4 16.7l7.7 13.4c8.9-5.2 19.8-10.4 35.5-10.4 17.9 0 25.8 9.2 25.8 24.6v7.9c-3.5-.7-10.7-1.2-15.1-1.2-38.2 0-57.6 13.4-57.6 41.4 0 25.1 15.4 37.7 38.7 37.7 15.7 0 30.8-7.2 36-18.9l4 15.9h15.4v-83.2c-.1-26.3-11.5-43.9-44-43.9M557.63 149.1c-8.2 0-15.4-1-20.8-3.5V70.5c7.4-6.2 16.6-10.7 28.3-10.7 21.1 0 29.2 14.9 29.2 39 0 34.2-13.1 50.3-36.7 50.3m9.2-110.6c-19.5 0-30 13.3-30 13.3v-21l-.1-27.8h-21.3l.1 158.5c10.7 4.5 25.3 6.9 41.2 6.9 40.7 0 60.3-26 60.3-70.9-.1-35.5-18.2-59-50.2-59M77.9 20.6c19.3 0 31.8 6.4 39.9 12.9l9.4-16.3C114.5 6 97.3 0 78.9 0 32.5 0 0 28.3 0 85.4c0 59.8 35.1 83.1 75.2 83.1 20.1 0 37.2-4.7 48.4-9.4l-.5-63.9V75.1H63.6v20.1h38l.5 48.5c-5 2.5-13.6 4.5-25.3 4.5-32.2 0-53.8-20.3-53.8-63-.1-43.5 22.2-64.6 54.9-64.6M231.43 2.95h-21.3l.1 27.3v94.3c0 26.3 11.4 43.9 43.9 43.9 4.5 0 8.9-.4 13.1-1.2v-19.1c-3.1.5-6.4.7-9.9.7-17.9 0-25.8-9.2-25.8-24.6v-65h35.7v-17.8h-35.7l-.1-38.5M155.96 165.47h21.3v-124h-21.3v124M155.96 24.37h21.3V3.07h-21.3v21.3"></path></svg>
+
+</span>
+</a></h1>
+<ul class="list-unstyled navbar-sub-nav">
+<li id="nav-projects-dropdown" class="home dropdown header-projects qa-projects-dropdown" data-track-label="projects_dropdown" data-track-event="click_dropdown" data-track-value=""><button class="btn" data-toggle="dropdown" type="button">
+Projects
+<svg class="caret-down"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#angle-down"></use></svg>
+</button>
+<div class="dropdown-menu frequent-items-dropdown-menu">
+<div class="frequent-items-dropdown-container">
+<div class="frequent-items-dropdown-sidebar qa-projects-dropdown-sidebar">
+<ul>
+<li class=""><a class="qa-your-projects-link" href="/dashboard/projects">Your projects
+</a></li><li class=""><a href="/dashboard/projects/starred">Starred projects
+</a></li><li class=""><a href="/explore">Explore projects
+</a></li></ul>
+</div>
+<div class="frequent-items-dropdown-content">
+<div><div class="search-input-container d-none d-sm-block"><input placeholder="Search your projects" type="search" class="form-control"> <svg aria-hidden="true" class="search-icon s16 ic-search"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#search"></use></svg></div> <!----> <div class="section-header">
+    Frequently visited
+  </div> <div class="frequent-items-list-container"><ul class="list-unstyled"><li class="section-empty">
+      Projects you visit often will appear here
+    </li></ul></div></div>
+</div>
+</div>
+
+</div>
+</li><li id="nav-groups-dropdown" class="d-none d-md-block home dropdown header-groups qa-groups-dropdown" data-track-label="groups_dropdown" data-track-event="click_dropdown" data-track-value=""><button class="btn" data-toggle="dropdown" type="button">
+Groups
+<svg class="caret-down"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#angle-down"></use></svg>
+</button>
+<div class="dropdown-menu frequent-items-dropdown-menu">
+<div class="frequent-items-dropdown-container">
+<div class="frequent-items-dropdown-sidebar qa-groups-dropdown-sidebar">
+<ul>
+<li class=""><a class="qa-your-groups-link" href="/dashboard/groups">Your groups
+</a></li><li class=""><a href="/explore/groups">Explore groups
+</a></li></ul>
+</div>
+<div class="frequent-items-dropdown-content">
+<div><div class="search-input-container d-none d-sm-block"><input placeholder="Search your groups" type="search" class="form-control"> <svg aria-hidden="true" class="search-icon s16 ic-search"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#search"></use></svg></div> <!----> <div class="section-header">
+    Frequently visited
+  </div> <div class="frequent-items-list-container"><ul class="list-unstyled"><li class="section-empty">
+      Groups you visit often will appear here
+    </li></ul></div></div>
+</div>
+</div>
+
+</div>
+</li><li class="header-more dropdown">
+<a data-qa-selector="more_dropdown" data-toggle="dropdown" href="#">
+More
+<svg class="caret-down"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#angle-down"></use></svg>
+</a>
+<div class="dropdown-menu">
+<ul>
+<li class="d-md-none">
+<a href="/dashboard/groups">Groups
+</a></li>
+<li class=""><a class="dashboard-shortcuts-activity" href="/dashboard/activity">Activity
+</a></li><li class=""><a class="dashboard-shortcuts-milestones" href="/dashboard/milestones">Milestones
+</a></li><li class=""><a class="dashboard-shortcuts-snippets" data-qa-selector="snippets_link" href="/dashboard/snippets">Snippets
+</a></li>
+<li class="dropdown">
+<a class="dropdown-item" href="/-/operations/environments">Environments
+</a><a class="dropdown-item" href="/-/operations">Operations
+</a><a class="dropdown-item" href="/-/security">Security
+</a>
+</li>
+</ul>
+</div>
+</li>
+
+<li class="hidden">
+<a class="dashboard-shortcuts-projects" href="/dashboard/projects">Projects
+</a></li>
+
+</ul>
+
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li class="header-new dropdown" data-track-event="click_dropdown" data-track-label="new_dropdown" data-track-value="">
+<a class="header-new-dropdown-toggle has-tooltip qa-new-menu-toggle" id="js-onboarding-new-project-link" title="New..." ref="tooltip" aria-label="New..." data-toggle="dropdown" data-placement="bottom" data-container="body" data-display="static" href="/projects/new"><svg class="s16"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#plus-square"></use></svg>
+<svg class="caret-down"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#angle-down"></use></svg>
+</a><div class="dropdown-menu dropdown-menu-right">
+<ul>
+<li class="dropdown-bold-header">
+This project
+</li>
+<li><a href="/pepm17/proyectocucumber1/-/issues/new">New issue</a></li>
+<li><a href="/pepm17/proyectocucumber1/-/merge_requests/new">New merge request</a></li>
+<li><a href="/pepm17/proyectocucumber1/snippets/new">New snippet</a></li>
+<li class="divider"></li>
+<li class="dropdown-bold-header">GitLab</li>
+<li><a class="qa-global-new-project-link" href="/projects/new">New project</a></li>
+<li><a href="/groups/new">New group</a></li>
+<li><a class="qa-global-new-snippet-link" href="/snippets/new">New snippet</a></li>
+</ul>
+</div>
+</li>
+
+<li class="nav-item d-none d-lg-block m-auto">
+<div class="search search-form" data-track-event="activate_form_input" data-track-label="navbar_search" data-track-value="">
+<form class="form-inline" action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓"><div class="search-input-container">
+<div class="search-input-wrap">
+<div class="dropdown" data-url="/search/autocomplete">
+<input type="search" name="search" id="search" placeholder="Search or jump to…" class="search-input dropdown-menu-toggle no-outline js-search-dashboard-options js-autocomplete-disabled" spellcheck="false" tabindex="1" autocomplete="off" data-issues-path="/dashboard/issues" data-mr-path="/dashboard/merge_requests" data-qa-selector="search_term_field" aria-label="Search or jump to…">
+<button class="hidden js-dropdown-search-toggle" data-toggle="dropdown" type="button"></button>
+<div class="dropdown-menu dropdown-select js-dashboard-search-options">
+<div class="dropdown-content"><ul>
+<li class="dropdown-menu-empty-item">
+<a>
+Loading...
+</a>
+</li>
+</ul>
+</div><div class="dropdown-loading"><i aria-hidden="true" data-hidden="true" class="fa fa-spinner fa-spin"></i></div>
+</div>
+<svg class="s16 search-icon"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#search"></use></svg>
+<svg class="s16 clear-icon js-clear-input"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#close"></use></svg>
+</div>
+</div>
+</div>
+<input type="hidden" name="group_id" id="group_id" class="js-search-group-options">
+<input type="hidden" name="project_id" id="search_project_id" value="18136676" class="js-search-project-options" data-project-path="proyectocucumber1" data-name="ProyectoCucumber1" data-issues-path="/pepm17/proyectocucumber1/-/issues" data-mr-path="/pepm17/proyectocucumber1/-/merge_requests" data-issues-disabled="false">
+<input type="hidden" name="search_code" id="search_code" value="true">
+<input type="hidden" name="repository_ref" id="repository_ref">
+<input type="hidden" name="nav_source" id="nav_source" value="navbar">
+<div class="search-autocomplete-opts hide" data-autocomplete-path="/search/autocomplete" data-autocomplete-project-id="18136676"></div>
+</form></div>
+
+</li>
+<li class="nav-item d-inline-block d-lg-none">
+<a title="Search" aria-label="Search" data-toggle="tooltip" data-placement="bottom" data-container="body" href="/search?project_id=18136676"><svg class="s16"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#search"></use></svg>
+</a></li>
+<li class="user-counter"><a title="Issues" class="dashboard-shortcuts-issues" aria-label="Issues" data-toggle="tooltip" data-placement="bottom" data-container="body" href="/dashboard/issues?assignee_username=pepm17"><svg class="s16"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#issues"></use></svg>
+<span class="badge badge-pill green-badge hidden issues-count">
+0
+</span>
+</a></li><li class="user-counter"><a title="Merge requests" class="dashboard-shortcuts-merge_requests" aria-label="Merge requests" data-toggle="tooltip" data-placement="bottom" data-container="body" href="/dashboard/merge_requests?assignee_username=pepm17"><svg class="s16"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#git-merge"></use></svg>
+<span class="badge badge-pill hidden merge-requests-count">
+0
+</span>
+</a></li><li class="user-counter"><a title="To-Do List" aria-label="To-Do List" class="shortcuts-todos" data-toggle="tooltip" data-placement="bottom" data-container="body" href="/dashboard/todos"><svg class="s16"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#todo-done"></use></svg>
+<span class="badge badge-pill hidden todos-count">
+0
+</span>
+</a></li><li class="nav-item header-help dropdown d-none d-md-block">
+<a class="header-help-dropdown-toggle" data-toggle="dropdown" href="/help"><svg class="s16"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#question"></use></svg>
+<svg class="caret-down"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#angle-down"></use></svg>
+</a><div class="dropdown-menu dropdown-menu-right">
+<ul>
+<li>
+<a href="/help">Help</a>
+</li>
+<li>
+<a href="https://about.gitlab.com/getting-help/">Support</a>
+</li>
+<li>
+<button class="js-shortcuts-modal-trigger" type="button">
+Keyboard shortcuts
+<span aria-hidden="" class="text-secondary float-right">?</span>
+</button>
+</li>
+
+<li class="divider"></li>
+<li>
+<a href="https://about.gitlab.com/submit-feedback">Submit feedback</a>
+</li>
+<li>
+<a target="_blank" class="text-nowrap" href="https://about.gitlab.com/contributing">Contribute to GitLab
+</a>
+
+</li>
+
+<li>
+<a href="https://next.gitlab.com/">Switch to GitLab Next</a>
+</li>
+</ul>
+
+</div>
+</li>
+<li class="dropdown header-user js-nav-user-dropdown nav-item" data-qa-selector="user_menu" data-track-event="click_dropdown" data-track-label="profile_dropdown" data-track-value="">
+<a class="header-user-dropdown-toggle" data-toggle="dropdown" href="/pepm17"><img width="23" height="23" class="header-user-avatar qa-user-avatar js-lazy-loaded qa-js-lazy-loaded" src="https://secure.gravatar.com/avatar/1803bcdc6caed33e80cd265008fd3872?s=46&amp;d=identicon">
+
+<svg class="caret-down"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#angle-down"></use></svg>
+</a><div class="dropdown-menu dropdown-menu-right">
+<ul>
+<li class="current-user">
+<div class="user-name bold">
+pepm17
+</div>
+@pepm17
+</li>
+<li class="divider"></li>
+<li>
+<button type="button" class="btn menu-item">Set status</button>
+</li>
+<li>
+<a class="profile-link" data-user="pepm17" href="/pepm17">Profile</a>
+</li>
+<li>
+<a class="trial-link" href="/-/trial_registrations/new?glm_content=top-right-dropdown&amp;glm_source=gitlab.com">
+Start a Gold trial
+<gl-emoji title="rocket" data-name="rocket" data-unicode-version="6.0">🚀</gl-emoji>
+</a>
+</li>
+<li>
+<a data-qa-selector="settings_link" href="/profile">Settings</a>
+</li>
+
+<li class="divider d-md-none"></li>
+<li class="d-md-none">
+<a href="/help">Help</a>
+</li>
+<li class="d-md-none">
+<a href="https://about.gitlab.com/getting-help/">Support</a>
+</li>
+
+<li class="d-md-none">
+<a href="https://about.gitlab.com/submit-feedback">Submit feedback</a>
+</li>
+<li class="d-md-none">
+<a target="_blank" class="text-nowrap" href="https://about.gitlab.com/contributing">Contribute to GitLab
+</a>
+
+</li>
+
+<li class="d-md-none">
+<a href="https://next.gitlab.com/">Switch to GitLab Next</a>
+</li>
+<li class="divider"></li>
+<li>
+<a class="sign-out-link" data-qa-selector="sign_out_link" rel="nofollow" data-method="post" href="/users/sign_out">Sign out</a>
+</li>
+</ul>
+
+</div>
+</li>
+</ul>
+</div>
+<button class="navbar-toggler d-block d-sm-none" type="button">
+<span class="sr-only">Toggle navigation</span>
+<svg class="s12 more-icon js-navbar-toggle-right"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#ellipsis_h"></use></svg>
+<svg class="s12 close-icon js-navbar-toggle-left"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#close"></use></svg>
+</button>
+</div>
+</div>
+</header>
+<!---->
+
+<div class="layout-page page-with-contextual-sidebar">
+<div class="nav-sidebar">
+<div class="nav-sidebar-inner-scroll" style="overflow-y: scroll;">
+<div class="context-header">
+<a title="ProyectoCucumber1" href="/pepm17/proyectocucumber1"><div class="avatar-container rect-avatar s40 project-avatar">
+<div class="avatar s40 avatar-tile identicon bg6">P</div>
+</div>
+<div class="sidebar-context-title">
+ProyectoCucumber1
+</div>
+</a></div>
+<ul class="sidebar-top-level-items qa-project-sidebar">
+<li class="home active"><a class="shortcuts-project rspec-project-link" data-qa-selector="project_link" href="/pepm17/proyectocucumber1"><div class="nav-icon-container">
+<svg><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#home"></use></svg>
+</div>
+<span class="nav-item-name">
+Project overview
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item active"><a href="/pepm17/proyectocucumber1"><strong class="fly-out-top-item-name">
+Project overview
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class="active"><a title="Project details" class="shortcuts-project" href="/pepm17/proyectocucumber1"><span>Details</span>
+</a></li><li class=""><a title="Activity" class="shortcuts-project-activity" data-qa-selector="activity_link" href="/pepm17/proyectocucumber1/activity"><span>Activity</span>
+</a></li></ul>
+</li><li class=""><a class="shortcuts-issues qa-issues-item" href="/pepm17/proyectocucumber1/-/issues"><div class="nav-icon-container">
+<svg><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#issues"></use></svg>
+</div>
+<span class="nav-item-name" id="js-onboarding-issues-link">
+Issues
+</span>
+<span class="badge badge-pill count issue_counter">
+0
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/pepm17/proyectocucumber1/-/issues"><strong class="fly-out-top-item-name">
+Issues
+</strong>
+<span class="badge badge-pill count issue_counter fly-out-badge">
+0
+</span>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Issues" href="/pepm17/proyectocucumber1/-/issues"><span>
+List
+</span>
+</a></li><li class=""><a title="Boards" data-qa-selector="issue_boards_link" href="/pepm17/proyectocucumber1/-/boards"><span>
+Boards
+</span>
+</a></li><li class=""><a title="Labels" class="qa-labels-link" href="/pepm17/proyectocucumber1/-/labels"><span>
+Labels
+</span>
+</a></li><li class=""><a title="Service Desk" href="/pepm17/proyectocucumber1/-/issues/service_desk">Service Desk
+</a></li>
+<li class=""><a title="Milestones" class="qa-milestones-link" href="/pepm17/proyectocucumber1/-/milestones"><span>
+Milestones
+</span>
+</a></li></ul>
+</li><li class=""><a class="shortcuts-merge_requests" data-qa-selector="merge_requests_link" href="/pepm17/proyectocucumber1/-/merge_requests"><div class="nav-icon-container">
+<svg><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#git-merge"></use></svg>
+</div>
+<span class="nav-item-name" id="js-onboarding-mr-link">
+Merge Requests
+</span>
+<span class="badge badge-pill count merge_counter js-merge-counter">
+0
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/pepm17/proyectocucumber1/-/merge_requests"><strong class="fly-out-top-item-name">
+Merge Requests
+</strong>
+<span class="badge badge-pill count merge_counter js-merge-counter fly-out-badge">
+0
+</span>
+</a></li></ul>
+</li>
+<li class=""><a class="shortcuts-pipelines qa-link-pipelines rspec-link-pipelines" data-qa-selector="ci_cd_link" href="/pepm17/proyectocucumber1/pipelines"><div class="nav-icon-container">
+<svg><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#rocket"></use></svg>
+</div>
+<span class="nav-item-name" id="js-onboarding-pipelines-link">
+CI / CD
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/pepm17/proyectocucumber1/pipelines"><strong class="fly-out-top-item-name">
+CI / CD
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Pipelines" class="shortcuts-pipelines" href="/pepm17/proyectocucumber1/pipelines"><span>
+Pipelines
+</span>
+</a></li><li class=""><a title="Jobs" class="shortcuts-builds" href="/pepm17/proyectocucumber1/-/jobs"><span>
+Jobs
+</span>
+</a></li><li class=""><a title="Schedules" class="shortcuts-builds" href="/pepm17/proyectocucumber1/pipeline_schedules"><span>
+Schedules
+</span>
+</a></li></ul>
+</li><li class=""><a data-qa-selector="security_dashboard_link" href="/pepm17/proyectocucumber1/-/security/dashboard"><div class="nav-icon-container">
+<svg><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#shield"></use></svg>
+</div>
+<span class="nav-item-name">
+Security &amp; Compliance
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/pepm17/proyectocucumber1/-/security/dashboard"><strong class="fly-out-top-item-name">
+Security &amp; Compliance
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Security Dashboard" href="/pepm17/proyectocucumber1/-/security/dashboard"><span>Security Dashboard</span>
+</a></li><li class=""><a title="Dependency List" data-qa-selector="dependency_list_link" href="/pepm17/proyectocucumber1/-/dependencies"><span>Dependency List</span>
+</a></li><li class=""><a title="License Compliance" data-qa-selector="licenses_list_link" href="/pepm17/proyectocucumber1/-/licenses"><span>License Compliance</span>
+</a></li><li class=""><a title="Configuration" data-qa-selector="security_configuration_link" href="/pepm17/proyectocucumber1/-/security/configuration"><span>Configuration</span>
+</a></li><li class=""><a title="Threat Monitoring" href="/pepm17/proyectocucumber1/-/threat_monitoring"><span>Threat Monitoring</span>
+</a></li></ul>
+</li>
+<li class=""><a class="shortcuts-operations qa-link-operations" href="/pepm17/proyectocucumber1/-/environments/metrics"><div class="nav-icon-container">
+<svg><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#cloud-gear"></use></svg>
+</div>
+<span class="nav-item-name">
+Operations
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/pepm17/proyectocucumber1/-/environments/metrics"><strong class="fly-out-top-item-name">
+Operations
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Metrics" class="shortcuts-metrics" data-qa-selector="operations_metrics_link" href="/pepm17/proyectocucumber1/-/environments/metrics"><span>
+Metrics
+</span>
+</a></li><li class=""><a title="Tracing" href="/pepm17/proyectocucumber1/tracing"><span>
+Tracing
+</span>
+</a></li>
+<li class=""><a title="Environments" class="shortcuts-environments qa-operations-environments-link" href="/pepm17/proyectocucumber1/-/environments"><span>
+Environments
+</span>
+</a></li><li class=""><a title="Error Tracking" class="shortcuts-tracking qa-operations-tracking-link" href="/pepm17/proyectocucumber1/-/error_tracking"><span>
+Error Tracking
+</span>
+</a></li><li class=""><a title="Serverless" href="/pepm17/proyectocucumber1/-/serverless/functions"><span>
+Serverless
+</span>
+</a></li><li class=""><a title="Logs" href="/pepm17/proyectocucumber1/-/logs"><span>
+Logs
+</span>
+</a></li><li class=""><a title="Kubernetes" class="shortcuts-kubernetes" href="/pepm17/proyectocucumber1/-/clusters"><span>
+Kubernetes
+</span>
+<div class="feature-highlight js-feature-highlight" data-container="body" data-dismiss-endpoint="/-/user_callouts" data-highlight="gke_cluster_integration" data-placement="right" data-toggle="popover" data-trigger="manual" data-original-title="" title=""></div>
+</a><div class="feature-highlight-popover-content">
+<img class="feature-highlight-illustration" alt="Kubernetes popover" src="https://assets.gitlab-static.net/assets/illustrations/cluster_popover-889b8203a86c86d1fd3f0b181e588071d00cd9c77590fd87dba4d19035e1c0df.svg">
+<div class="feature-highlight-popover-sub-content">
+<p>Allows you to add and manage Kubernetes clusters.</p>
+<p>
+Protip:
+<a href="/help/topics/autodevops/index.md">Auto DevOps</a>
+<span>uses Kubernetes clusters to deploy your code!</span>
+</p>
+<hr>
+<button class="btn btn-success btn-sm dismiss-feature-highlight" type="button">
+<span>Got it!</span>
+<svg><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#thumb-up"></use></svg>
+</button>
+</div>
+</div>
+</li><li class=""><a title="Feature Flags" class="shortcuts-feature-flags" href="/pepm17/proyectocucumber1/-/feature_flags"><span>
+Feature Flags
+</span>
+</a></li>
+</ul>
+</li><li class=""><a data-qa-selector="packages_link" href="/pepm17/proyectocucumber1/-/packages"><div class="nav-icon-container">
+<svg><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#package"></use></svg>
+</div>
+<span class="nav-item-name">
+Packages
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/pepm17/proyectocucumber1/-/packages"><strong class="fly-out-top-item-name">
+Packages
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="Packages" href="/pepm17/proyectocucumber1/-/packages"><span>List</span>
+</a></li><li class=""><a class="shortcuts-container-registry" title="Container Registry" href="/pepm17/proyectocucumber1/container_registry"><span>Container Registry</span>
+</a></li></ul>
+</li>
+<li class=""><a data-qa-selector="analytics_anchor" href="/pepm17/proyectocucumber1/-/value_stream_analytics"><div class="nav-icon-container">
+<svg><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#chart"></use></svg>
+</div>
+<span class="nav-item-name" data-qa-selector="analytics_link">
+Analytics
+</span>
+</a><ul class="sidebar-sub-level-items" data-qa-selector="analytics_sidebar_submenu">
+<li class="fly-out-top-item"><a href="/pepm17/proyectocucumber1/-/value_stream_analytics"><strong class="fly-out-top-item-name">
+Analytics
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="CI / CD" href="/pepm17/proyectocucumber1/pipelines/charts"><span>CI / CD</span>
+</a></li><li class=""><a title="Code Review" href="/pepm17/proyectocucumber1/-/analytics/code_reviews"><span>Code Review</span>
+</a></li><li class=""><a class="shortcuts-project-insights" data-qa-selector="project_insights_link" title="Insights" href="/pepm17/proyectocucumber1/insights/"><span>Insights</span>
+</a></li><li class=""><a title="Issues" href="/pepm17/proyectocucumber1/-/analytics/issues_analytics"><span>Issues</span>
+</a></li><li class=""><a class="shortcuts-project-cycle-analytics" title="Value Stream" href="/pepm17/proyectocucumber1/-/value_stream_analytics"><span>Value Stream</span>
+</a></li></ul>
+</li>
+<li class=""><a class="shortcuts-wiki" data-qa-selector="wiki_link" href="/pepm17/proyectocucumber1/-/wikis/home"><div class="nav-icon-container">
+<svg><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#book"></use></svg>
+</div>
+<span class="nav-item-name">
+Wiki
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/pepm17/proyectocucumber1/-/wikis/home"><strong class="fly-out-top-item-name">
+Wiki
+</strong>
+</a></li></ul>
+</li><li class=""><a class="shortcuts-snippets" href="/pepm17/proyectocucumber1/snippets"><div class="nav-icon-container">
+<svg><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#snippet"></use></svg>
+</div>
+<span class="nav-item-name">
+Snippets
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><a href="/pepm17/proyectocucumber1/snippets"><strong class="fly-out-top-item-name">
+Snippets
+</strong>
+</a></li></ul>
+</li><li class=""><a class="shortcuts-tree" href="/pepm17/proyectocucumber1/edit"><div class="nav-icon-container">
+<svg><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#settings"></use></svg>
+</div>
+<span class="nav-item-name qa-settings-item" id="js-onboarding-settings-link">
+Settings
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><a href="/pepm17/proyectocucumber1/edit"><strong class="fly-out-top-item-name">
+Settings
+</strong>
+</a></li><li class="divider fly-out-top-item"></li>
+<li class=""><a title="General" class="qa-general-settings-link" href="/pepm17/proyectocucumber1/edit"><span>
+General
+</span>
+</a></li><li class=""><a title="Members" class="qa-link-members-settings" id="js-onboarding-settings-members-link" href="/pepm17/proyectocucumber1/-/project_members"><span>
+Members
+</span>
+</a></li><li class=""><a title="Integrations" data-qa-selector="integrations_settings_link" href="/pepm17/proyectocucumber1/-/settings/integrations"><span>
+Integrations
+</span>
+</a></li><li class=""><a title="Webhooks" data-qa-selector="webhooks_settings_link" href="/pepm17/proyectocucumber1/hooks"><span>
+Webhooks
+</span>
+</a></li><li class=""><a title="Repository" href="/pepm17/proyectocucumber1/-/settings/repository"><span>
+Repository
+</span>
+</a></li><li class=""><a title="CI / CD" href="/pepm17/proyectocucumber1/-/settings/ci_cd"><span>
+CI / CD
+</span>
+</a></li><li class=""><a title="Operations" href="/pepm17/proyectocucumber1/-/settings/operations">Operations
+</a></li><li class=""><a title="Pages" href="/pepm17/proyectocucumber1/pages"><span>
+Pages
+</span>
+</a></li><li class=""><a title="Audit Events" data-qa-selector="audit_events_settings_link" href="/pepm17/proyectocucumber1/-/audit_events">Audit Events
+</a></li>
+</ul>
+</li><a class="toggle-sidebar-button js-toggle-sidebar qa-toggle-sidebar rspec-toggle-sidebar" role="button" title="Toggle sidebar" type="button">
+<svg class="icon-angle-double-left"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#angle-double-left"></use></svg>
+<svg class="icon-angle-double-right"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#angle-double-right"></use></svg>
+<span class="collapse-text">Collapse sidebar</span>
+</a>
+<button name="button" type="button" class="close-nav-button"><svg class="s16"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#close"></use></svg>
+<span class="collapse-text">Close sidebar</span>
+</button>
+<li class="hidden">
+<a title="Activity" class="shortcuts-project-activity" href="/pepm17/proyectocucumber1/activity"><span>
+Activity
+</span>
+</a></li>
+<li class="hidden">
+<a class="shortcuts-new-issue" href="/pepm17/proyectocucumber1/-/issues/new">Create a new issue
+</a></li>
+<li class="hidden">
+<a title="Jobs" class="shortcuts-builds" href="/pepm17/proyectocucumber1/-/jobs">Jobs
+</a></li>
+<li class="hidden">
+<a title="Issue Boards" class="shortcuts-issue-boards" href="/pepm17/proyectocucumber1/-/boards">Issue Boards</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="content-wrapper">
+<div class="mobile-overlay"></div>
+<div class="alert-wrapper">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="breadcrumbs container-fluid container-limited limit-container-width" role="navigation">
+<div class="breadcrumbs-container">
+<button name="button" type="button" class="toggle-mobile-nav"><span class="sr-only">Open sidebar</span>
+<i aria-hidden="true" data-hidden="true" class="fa fa-bars"></i>
+</button><div class="breadcrumbs-links js-title-container" data-qa-selector="breadcrumb_links_content">
+<ul class="list-unstyled breadcrumbs-list js-breadcrumbs-list">
+<li><a href="/pepm17">pepm17</a><svg class="s8 breadcrumbs-list-angle"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#angle-right"></use></svg></li> <li><a href="/pepm17/proyectocucumber1"><span class="breadcrumb-item-text js-breadcrumb-item-text">ProyectoCucumber1</span></a><svg class="s8 breadcrumbs-list-angle"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#angle-right"></use></svg></li>
+
+<li>
+<h2 class="breadcrumbs-sub-title"><a href="/pepm17/proyectocucumber1">Details</a></h2>
+</li>
+</ul>
+</div>
+
+</div>
+</nav>
+
+<div class="d-flex"></div>
+</div>
+<div class="container-fluid container-limited limit-container-width">
+<div class="content" id="content-body">
+<div class="flash-container flash-container-page sticky">
+</div>
+
+
+<div class="limit-container-width">
+<div class="empty-project js-show-on-project-root project-home-panel">
+<div class="row append-bottom-8">
+<div class="home-panel-title-row col-md-12 col-lg-6 d-flex">
+<div class="avatar-container rect-avatar s64 home-panel-avatar append-right-default float-none">
+<div class="avatar avatar-tile s64 identicon bg6">P</div>
+</div>
+<div class="d-flex flex-column flex-wrap align-items-baseline">
+<div class="d-inline-flex align-items-baseline">
+<h1 class="home-panel-title prepend-top-8 append-bottom-5" data-qa-selector="project_name_content">
+ProyectoCucumber1
+<span class="visibility-icon text-secondary prepend-left-4 has-tooltip" data-container="body" title="Public - The project can be accessed without any authentication.">
+<i aria-hidden="true" data-hidden="true" class="fa fa-globe icon"></i>
+</span>
+</h1>
+</div>
+<div class="home-panel-metadata d-flex flex-wrap text-secondary">
+<span class="text-secondary">
+Project ID: 18136676
+</span>
+<span class="access-request-links prepend-left-8">
+
+</span>
+</div>
+</div>
+</div>
+<div class="project-repo-buttons col-md-12 col-lg-6 d-inline-flex flex-wrap justify-content-lg-end">
+<div class="d-inline-flex">
+<div class="js-notification-dropdown notification-dropdown home-panel-action-button prepend-top-default append-right-8 dropdown inline">
+<form class="inline notification-form no-label" id="edit_notification_setting_24512924" action="/-/notification_settings/24512924" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="patch"><input type="hidden" name="project_id" id="project_id" value="18136676">
+<input type="hidden" name="hide_label" id="hide_label" value="true">
+<input class="notification_setting_level" type="hidden" value="global" name="notification_setting[level]" id="notification_setting_level">
+<div class="js-notification-toggle-btns">
+<div class="">
+<button aria-label="Notification setting - Global" class="btn btn-default btn-xs dropdown-new has-tooltip notifications-btn" data-container="body" data-flip="false" data-placement="top" data-target="dropdown-5316156-18136676-Project" data-toggle="dropdown" id="notifications-button" title="Notification setting - Global" type="button">
+<svg class="icon notifications-icon js-notifications-icon"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#notifications"></use></svg>
+<span class="js-notification-loading fa hidden"></span>
+<svg class="icon"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#chevron-down"></use></svg>
+</button>
+<ul class="dropdown-5316156-18136676-Project dropdown-menu dropdown-menu-large dropdown-menu-no-wrap dropdown-menu-selectable" role="menu">
+<li role="menuitem"><a class="update-notification is-active" data-notification-level="global" data-notification-title="Global" href="#"><strong class="dropdown-menu-inner-title">Global</strong><span class="dropdown-menu-inner-content">Use your global notification setting</span></a></li>
+<li role="menuitem"><a class="update-notification " data-notification-level="watch" data-notification-title="Watch" href="#"><strong class="dropdown-menu-inner-title">Watch</strong><span class="dropdown-menu-inner-content">You will receive notifications for any activity</span></a></li>
+<li role="menuitem"><a class="update-notification " data-notification-level="participating" data-notification-title="Participate" href="#"><strong class="dropdown-menu-inner-title">Participate</strong><span class="dropdown-menu-inner-content">You will only receive notifications for threads you have participated in</span></a></li>
+<li role="menuitem"><a class="update-notification " data-notification-level="mention" data-notification-title="On mention" href="#"><strong class="dropdown-menu-inner-title">On mention</strong><span class="dropdown-menu-inner-content">You will receive notifications only for comments in which you were @mentioned</span></a></li>
+<li role="menuitem"><a class="update-notification " data-notification-level="disabled" data-notification-title="Disabled" href="#"><strong class="dropdown-menu-inner-title">Disabled</strong><span class="dropdown-menu-inner-content">You will not get any notifications via email</span></a></li>
+<li class="divider"></li>
+<li>
+<a class="update-notification" data-notification-level="custom" data-notification-title="Custom" data-target="#modal-5316156-18136676-Project" data-toggle="modal" href="#" role="button">
+<strong class="dropdown-menu-inner-title">Custom</strong>
+<span class="dropdown-menu-inner-content">You will only receive notifications for the events you choose</span>
+</a>
+</li>
+</ul>
+
+</div>
+</div>
+</form></div>
+
+</div>
+<div class="count-buttons d-inline-flex">
+<div class="count-badge d-inline-flex align-item-stretch append-right-8">
+<button class="count-badge-button btn btn-default btn-xs d-flex align-items-center star-btn toggle-star" data-endpoint="/pepm17/proyectocucumber1/toggle_star.json" type="button">
+<svg class="icon"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#star-o"></use></svg>
+<span>Star</span>
+</button>
+<span class="star-count count-badge-count d-flex align-items-center">
+<a title="Starrers" class="count" href="/pepm17/proyectocucumber1/-/starrers">0
+</a></span>
+</div>
+
+
+</div>
+</div>
+</div>
+<nav class="project-stats">
+<div class="nav-links quick-links">
+
+</div>
+</nav>
+<div class="home-panel-home-desc mt-1">
+<div class="home-panel-description text-break">
+<div class="home-panel-description-markdown read-more-container">
+<p data-sourcepos="1:1-1:28" dir="auto">Prueba del proyecto cucumber</p>
+</div>
+<button class="btn btn-blank btn-link js-read-more-trigger d-lg-none" type="button">
+Read more
+</button>
+</div>
+
+</div>
+</div>
+
+<h4 class="prepend-top-0 append-bottom-8">
+The repository for this project is empty
+</h4>
+<p class="append-bottom-0">
+You can get started by cloning the repository or start adding files to it with one of the following options.
+</p>
+<div class="project-buttons qa-quick-actions">
+<div class="project-clone-holder d-block d-md-none mt-2 mr-2">
+<div class="btn-group mobile-git-clone js-mobile-git-clone btn-block">
+<button class="btn btn-primary flex-fill bold justify-content-center input-group-text clone-dropdown-btn js-clone-dropdown-label" data-toggle="tooltip" data-placement="bottom" data-container="body" data-button-text="Copy SSH clone URL" data-hide-button-icon="true" data-class="btn-primary flex-fill bold justify-content-center input-group-text clone-dropdown-btn js-clone-dropdown-label" data-clipboard-text="git@gitlab.com:pepm17/proyectocucumber1.git" type="button" title="Copy" aria-label="Copy">Copy SSH clone URL</button>
+<button class="btn btn-primary dropdown-toggle js-dropdown-toggle flex-grow-0 d-flex-center w-auto ml-0" data-toggle="dropdown" type="button">
+<svg class="dropdown-btn-icon icon"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#chevron-down"></use></svg>
+</button>
+<ul class="dropdown-menu dropdown-menu-selectable dropdown-menu-right clone-options-dropdown" data-dropdown="">
+<li>
+<a class="copy ssh clone url-selector is-active" href="git@gitlab.com:pepm17/proyectocucumber1.git" data-clone-type="ssh"><strong class="dropdown-menu-inner-title">Copy SSH clone URL</strong><span class="dropdown-menu-inner-content">git@gitlab.com:pepm17/proyectocucumber1.git</span></a>
+</li>
+<li>
+<a class="copy https clone url-selector " href="https://gitlab.com/pepm17/proyectocucumber1.git" data-clone-type="http"><strong class="dropdown-menu-inner-title">Copy HTTPS clone URL</strong><span class="dropdown-menu-inner-content">https://gitlab.com/pepm17/proyectocucumber1.git</span></a>
+</li>
+
+</ul>
+</div>
+
+</div>
+<div class="project-clone-holder d-none d-md-inline-block mt-2 mr-2 float-left">
+<div class="git-clone-holder js-git-clone-holder">
+<a class="btn btn-primary clone-dropdown-btn qa-clone-dropdown" data-toggle="dropdown" href="#" id="clone-dropdown">
+<span class="append-right-4 js-clone-dropdown-label">
+Clone
+</span>
+<svg class="icon"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#chevron-down"></use></svg>
+</a>
+<ul class="clone-options-dropdown dropdown-menu dropdown-menu-large dropdown-menu-selectable p-3 qa-clone-options">
+<li>
+<label class="label-bold">
+Clone with SSH
+</label>
+<div class="input-group">
+<input type="text" name="ssh_project_clone" id="ssh_project_clone" value="git@gitlab.com:pepm17/proyectocucumber1.git" class="js-select-on-focus form-control qa-ssh-clone-url" readonly="readonly" aria-label="Project clone URL">
+<div class="input-group-append">
+<button class="btn input-group-text btn-default btn-clipboard" data-toggle="tooltip" data-placement="bottom" data-container="body" data-title="Copy URL" data-class="input-group-text btn-default btn-clipboard" data-clipboard-target="#ssh_project_clone" type="button" title="Copy URL" aria-label="Copy URL"><svg><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#copy-to-clipboard"></use></svg></button>
+
+</div>
+</div>
+</li>
+<li class="pt-2">
+<label class="label-bold">
+Clone with HTTPS
+</label>
+<div class="input-group">
+<input type="text" name="http_project_clone" id="http_project_clone" value="https://gitlab.com/pepm17/proyectocucumber1.git" class="js-select-on-focus form-control qa-http-clone-url" readonly="readonly" aria-label="Project clone URL">
+<div class="input-group-append">
+<button class="btn input-group-text btn-default btn-clipboard" data-toggle="tooltip" data-placement="bottom" data-container="body" data-title="Copy URL" data-class="input-group-text btn-default btn-clipboard" data-clipboard-target="#http_project_clone" type="button" title="Copy URL" aria-label="Copy URL"><svg><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#copy-to-clipboard"></use></svg></button>
+
+</div>
+</div>
+</li>
+
+</ul>
+</div>
+
+</div>
+<ul class="nav">
+<li class="nav-item">
+<a class="nav-link btn btn-missing d-flex align-items-center" href="/pepm17/proyectocucumber1/-/new/master"><svg class="s16 icon append-right-4"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#plus-square-o"></use></svg>New file</a></li>
+<li class="nav-item">
+<a class="nav-link btn btn-missing d-flex align-items-center" href="/pepm17/proyectocucumber1/-/new/master?commit_message=Add+README.md&amp;file_name=README.md"><svg class="s16 icon append-right-4"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#plus-square-o"></use></svg>Add README</a></li>
+<li class="nav-item">
+<a class="nav-link btn btn-missing d-flex align-items-center" href="/pepm17/proyectocucumber1/-/new/master?commit_message=Add+LICENSE&amp;file_name=LICENSE"><span class="add-license-link d-flex"><svg class="s16 icon append-right-4"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#plus-square-o"></use></svg>Add LICENSE</span></a></li>
+<li class="nav-item">
+<a class="nav-link btn btn-missing d-flex align-items-center" href="/pepm17/proyectocucumber1/-/new/master?commit_message=Add+CHANGELOG&amp;file_name=CHANGELOG"><svg class="s16 icon append-right-4"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#plus-square-o"></use></svg>Add CHANGELOG</a></li>
+<li class="nav-item">
+<a class="nav-link btn btn-missing d-flex align-items-center" href="/pepm17/proyectocucumber1/-/new/master?commit_message=Add+CONTRIBUTING&amp;file_name=CONTRIBUTING.md"><svg class="s16 icon append-right-4"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#plus-square-o"></use></svg>Add CONTRIBUTING</a></li>
+<li class="nav-item">
+<a class="nav-link btn btn-missing d-flex align-items-center" href="/pepm17/proyectocucumber1/-/new/master?commit_message=Add+.gitlab-ci.yml&amp;file_name=.gitlab-ci.yml"><svg class="s16 icon append-right-4"><use xlink:href="https://gitlab.com/assets/icons-71bf7df1ad95896025a943ae9f38c4e046e29fbbff1f14df5ae17d4a255feffa.svg#plus-square-o"></use></svg>Set up CI/CD</a></li>
+</ul>
+
+</div>
+<div class="empty-wrapper prepend-top-32">
+<h3 class="page-title-empty" id="repo-command-line-instructions">
+Command line instructions
+</h3>
+<p>
+You can also upload existing files from your computer using the instructions below.
+</p>
+<div class="git-empty js-git-empty">
+<fieldset>
+<h5>Git global setup</h5>
+<pre class="bg-light">git config --global user.name "pepm17"
+git config --global user.email "pablopupo1797@gmail.com"
+</pre>
+</fieldset>
+<fieldset>
+<h5>Create a new repository</h5>
+<pre class="bg-light">git clone <span class="js-clone">git@gitlab.com:pepm17/proyectocucumber1.git</span>
+cd proyectocucumber1
+touch README.md
+git add README.md
+git commit -m "add README"
+<span>git push -u origin master</span></pre>
+</fieldset>
+<fieldset>
+<h5>Push an existing folder</h5>
+<pre class="bg-light">cd existing_folder
+git init
+git remote add origin <span class="js-clone">git@gitlab.com:pepm17/proyectocucumber1.git</span>
+git add .
+git commit -m "Initial commit"
+<span>git push -u origin master</span></pre>
+</fieldset>
+<fieldset>
+<h5>Push an existing Git repository</h5>
+<pre class="bg-light">cd existing_repo
+git remote rename origin old-origin
+git remote add origin <span class="js-clone">git@gitlab.com:pepm17/proyectocucumber1.git</span>
+<span>git push -u origin --all
+git push -u origin --tags</span></pre>
+</fieldset>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div aria-labelledby="custom-notifications-title" class="modal fade" id="modal-5316156-18136676-Project" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="custom-notifications-title">
+Custom notification events
+</h4>
+<button aria-label="Close" class="close" data-dismiss="modal" type="button">
+<span aria-hidden="">×</span>
+</button>
+</div>
+<div class="modal-body">
+<div class="container-fluid">
+<form class="custom-notifications-form" id="edit_notification_setting_24512924" action="/-/notification_settings/24512924" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="patch"><input type="hidden" name="authenticity_token" value="eJwlopBS5qusC1EZojAWBBdYdY1EdNsr3dkaHbIP0F4IQWQCWWbJZ0kkdHPd0BEAxg54Hs5ls+azdjyb23Sn3g=="><input type="hidden" name="project_id" id="project_id" value="18136676">
+<input type="hidden" name="hide_label" id="hide_label" value="true">
+<div class="row">
+<div class="col-lg-4">
+<h4 class="prepend-top-0">Notification events</h4>
+<p>
+Custom notification levels are the same as participating levels. With custom notification levels you will also receive notifications for select events. To find out more, check out <a target="_blank" href="/help/user/profile/notifications">notification emails</a>.
+</p>
+</div>
+<div class="col-lg-8">
+<div class="form-group">
+<div class="form-check prepend-top-0">
+<input name="notification_setting[new_release]" type="hidden" value="0"><input id="modal-5316156-18136676-Project_notification_setting[new_release]" class="js-custom-notification-event form-check-input" type="checkbox" value="1" name="notification_setting[new_release]">
+<label class="form-check-label" for="modal-5316156-18136676-Project_notification_setting[new_release]">
+<strong>
+New release
+<div class="fa custom-notification-event-loading spinner"></div>
+</strong>
+</label>
+</div>
+</div>
+<div class="form-group">
+<div class="form-check">
+<input name="notification_setting[new_note]" type="hidden" value="0"><input id="modal-5316156-18136676-Project_notification_setting[new_note]" class="js-custom-notification-event form-check-input" type="checkbox" value="1" name="notification_setting[new_note]">
+<label class="form-check-label" for="modal-5316156-18136676-Project_notification_setting[new_note]">
+<strong>
+New note
+<div class="fa custom-notification-event-loading spinner"></div>
+</strong>
+</label>
+</div>
+</div>
+<div class="form-group">
+<div class="form-check">
+<input name="notification_setting[new_issue]" type="hidden" value="0"><input id="modal-5316156-18136676-Project_notification_setting[new_issue]" class="js-custom-notification-event form-check-input" type="checkbox" value="1" name="notification_setting[new_issue]">
+<label class="form-check-label" for="modal-5316156-18136676-Project_notification_setting[new_issue]">
+<strong>
+New issue
+<div class="fa custom-notification-event-loading spinner"></div>
+</strong>
+</label>
+</div>
+</div>
+<div class="form-group">
+<div class="form-check">
+<input name="notification_setting[reopen_issue]" type="hidden" value="0"><input id="modal-5316156-18136676-Project_notification_setting[reopen_issue]" class="js-custom-notification-event form-check-input" type="checkbox" value="1" name="notification_setting[reopen_issue]">
+<label class="form-check-label" for="modal-5316156-18136676-Project_notification_setting[reopen_issue]">
+<strong>
+Reopen issue
+<div class="fa custom-notification-event-loading spinner"></div>
+</strong>
+</label>
+</div>
+</div>
+<div class="form-group">
+<div class="form-check">
+<input name="notification_setting[close_issue]" type="hidden" value="0"><input id="modal-5316156-18136676-Project_notification_setting[close_issue]" class="js-custom-notification-event form-check-input" type="checkbox" value="1" name="notification_setting[close_issue]">
+<label class="form-check-label" for="modal-5316156-18136676-Project_notification_setting[close_issue]">
+<strong>
+Close issue
+<div class="fa custom-notification-event-loading spinner"></div>
+</strong>
+</label>
+</div>
+</div>
+<div class="form-group">
+<div class="form-check">
+<input name="notification_setting[reassign_issue]" type="hidden" value="0"><input id="modal-5316156-18136676-Project_notification_setting[reassign_issue]" class="js-custom-notification-event form-check-input" type="checkbox" value="1" name="notification_setting[reassign_issue]">
+<label class="form-check-label" for="modal-5316156-18136676-Project_notification_setting[reassign_issue]">
+<strong>
+Reassign issue
+<div class="fa custom-notification-event-loading spinner"></div>
+</strong>
+</label>
+</div>
+</div>
+<div class="form-group">
+<div class="form-check">
+<input name="notification_setting[issue_due]" type="hidden" value="0"><input id="modal-5316156-18136676-Project_notification_setting[issue_due]" class="js-custom-notification-event form-check-input" type="checkbox" value="1" name="notification_setting[issue_due]">
+<label class="form-check-label" for="modal-5316156-18136676-Project_notification_setting[issue_due]">
+<strong>
+Issue due
+<div class="fa custom-notification-event-loading spinner"></div>
+</strong>
+</label>
+</div>
+</div>
+<div class="form-group">
+<div class="form-check">
+<input name="notification_setting[new_merge_request]" type="hidden" value="0"><input id="modal-5316156-18136676-Project_notification_setting[new_merge_request]" class="js-custom-notification-event form-check-input" type="checkbox" value="1" name="notification_setting[new_merge_request]">
+<label class="form-check-label" for="modal-5316156-18136676-Project_notification_setting[new_merge_request]">
+<strong>
+New merge request
+<div class="fa custom-notification-event-loading spinner"></div>
+</strong>
+</label>
+</div>
+</div>
+<div class="form-group">
+<div class="form-check">
+<input name="notification_setting[push_to_merge_request]" type="hidden" value="0"><input id="modal-5316156-18136676-Project_notification_setting[push_to_merge_request]" class="js-custom-notification-event form-check-input" type="checkbox" value="1" name="notification_setting[push_to_merge_request]">
+<label class="form-check-label" for="modal-5316156-18136676-Project_notification_setting[push_to_merge_request]">
+<strong>
+Push to merge request
+<div class="fa custom-notification-event-loading spinner"></div>
+</strong>
+</label>
+</div>
+</div>
+<div class="form-group">
+<div class="form-check">
+<input name="notification_setting[reopen_merge_request]" type="hidden" value="0"><input id="modal-5316156-18136676-Project_notification_setting[reopen_merge_request]" class="js-custom-notification-event form-check-input" type="checkbox" value="1" name="notification_setting[reopen_merge_request]">
+<label class="form-check-label" for="modal-5316156-18136676-Project_notification_setting[reopen_merge_request]">
+<strong>
+Reopen merge request
+<div class="fa custom-notification-event-loading spinner"></div>
+</strong>
+</label>
+</div>
+</div>
+<div class="form-group">
+<div class="form-check">
+<input name="notification_setting[close_merge_request]" type="hidden" value="0"><input id="modal-5316156-18136676-Project_notification_setting[close_merge_request]" class="js-custom-notification-event form-check-input" type="checkbox" value="1" name="notification_setting[close_merge_request]">
+<label class="form-check-label" for="modal-5316156-18136676-Project_notification_setting[close_merge_request]">
+<strong>
+Close merge request
+<div class="fa custom-notification-event-loading spinner"></div>
+</strong>
+</label>
+</div>
+</div>
+<div class="form-group">
+<div class="form-check">
+<input name="notification_setting[reassign_merge_request]" type="hidden" value="0"><input id="modal-5316156-18136676-Project_notification_setting[reassign_merge_request]" class="js-custom-notification-event form-check-input" type="checkbox" value="1" name="notification_setting[reassign_merge_request]">
+<label class="form-check-label" for="modal-5316156-18136676-Project_notification_setting[reassign_merge_request]">
+<strong>
+Reassign merge request
+<div class="fa custom-notification-event-loading spinner"></div>
+</strong>
+</label>
+</div>
+</div>
+<div class="form-group">
+<div class="form-check">
+<input name="notification_setting[merge_merge_request]" type="hidden" value="0"><input id="modal-5316156-18136676-Project_notification_setting[merge_merge_request]" class="js-custom-notification-event form-check-input" type="checkbox" value="1" name="notification_setting[merge_merge_request]">
+<label class="form-check-label" for="modal-5316156-18136676-Project_notification_setting[merge_merge_request]">
+<strong>
+Merge merge request
+<div class="fa custom-notification-event-loading spinner"></div>
+</strong>
+</label>
+</div>
+</div>
+<div class="form-group">
+<div class="form-check">
+<input name="notification_setting[failed_pipeline]" type="hidden" value="0"><input id="modal-5316156-18136676-Project_notification_setting[failed_pipeline]" class="js-custom-notification-event form-check-input" type="checkbox" value="1" checked="checked" name="notification_setting[failed_pipeline]">
+<label class="form-check-label" for="modal-5316156-18136676-Project_notification_setting[failed_pipeline]">
+<strong>
+Failed pipeline
+<div class="fa custom-notification-event-loading spinner"></div>
+</strong>
+</label>
+</div>
+</div>
+<div class="form-group">
+<div class="form-check">
+<input name="notification_setting[success_pipeline]" type="hidden" value="0"><input id="modal-5316156-18136676-Project_notification_setting[success_pipeline]" class="js-custom-notification-event form-check-input" type="checkbox" value="1" name="notification_setting[success_pipeline]">
+<label class="form-check-label" for="modal-5316156-18136676-Project_notification_setting[success_pipeline]">
+<strong>
+Successful pipeline
+<div class="fa custom-notification-event-loading spinner"></div>
+</strong>
+</label>
+</div>
+</div>
+</div>
+</div>
+</form></div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+</body></html>
